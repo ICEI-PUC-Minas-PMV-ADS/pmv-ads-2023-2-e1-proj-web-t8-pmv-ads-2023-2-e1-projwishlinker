@@ -1,25 +1,29 @@
-# Título do Projeto
+# WishLinker
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`2º semestre/2023`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é oferecer aos consumidores uma plataforma de centralização de produtos de interesse. Através dessa plataforma, os cosumidores poderão tomar melhores decisões de compra. Especificamente o projeto tem os seguinte objetivos: Centralização de Wishlists; Quarentena para Compras e Notificações Ativas.
+Centralização de Wishlists: Desenvolver uma funcionalidade que permita os consumidores integrarem e visualizar wishlists de múltiplas plataformas em um único local. 
+Quarentena para Compras: Fornecer funcionalidade de lista como "quarentena" que permite ao consumidor um tempo maior para avaliar a real necessidade de um produto, discernir se ele verdadeiramente atende às expectativas e determinar se a aquisição do produto é fruto de um desejo genuíno ou influência de publicidades persuasivas. 
+Notificações Ativas: Implementar um sistema de alertas que notifique os consumidores sobre promoções, disponibilidade limitada dos produtos em suas wishlists e lembretes de compras de produtos em quarentena. 
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Gabriela Almeida dos Reis
+* Gustavo Vinicius Maciel
+* Jozimar Aparecido de Jesus Santos
+* Leonidas Felipe Soares Oliveira
+* Rodolfo Iannazzo Querino da Silva
+* Thiago Pires Alves de Castro
 
 ## Orientador
 
-* Nome completo do professor
+* Marco Rodrigo Costa
 
 # Documentação
 
