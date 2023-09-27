@@ -1,35 +1,28 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+O problema eletrônico, ou "e-commerce", tem demonstrado crescimento contínuo no Brasil ao longo dos anos. Entretanto, em 2020, observou-se um aumento expressivo devido à pandemia da COVID-19 e à consequentemente necessidade de distanciamento social. Mesmo após a reabertura das lojas físicas, muitos consumidores mantêm sua preferência pelo ambiente online. De acordo com um estudo realizado pela Associação Brasileira de Comércio Eletrônico (ABComm) em parceria com a Neotrust, mais de 20 milhões de brasileiros efetuaram sua primeira compra online naquele ano. Em 2020, as vendas online cresceram 68%, alcançando um faturamento de R$126,3 bilhões, com mais de 300 milhões de pedidos processados.
+
+Diante da vasta gama de opções de compras online e da crescente competitividade entre empresas, os consumidores são influenciados tanto por fatores econômicos, como inflação e crises, que os levam a procurar por preços mais acessíveis e promoções, navegando pelas plataformas digitais comparando preços e outros fatores.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
-
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Embora muitas plataformas ofereçam *wishlists* para que os consumidores marquem produtos de interesse, o problema surge devido à vasta quantidade de plataformas e à constante adição de itens, resultando no esquecimento desses produtos. Esse esquecimento pode levar à perda de oportunidades de compra, especialmente quando itens desejados entram em promoção ou têm estoque limitado. Além disso, a exposição constante a publicidades agressivas influencia compras impulsivas, levando os consumidores a adquirirem produtos que não atendem às suas reais necessidades.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo geral deste projeto é oferecer aos consumidores uma plataforma de centralização de produtos de interesse. Atravez dessa plataforma, os consumidores poderão tomar melhores decisões de compra. Especificamente o projeto tem os seguintes objetivos:
 
++ **Centralização de *wishlists*:** Desenvolver uma funcionalidade que permita os consumidores integrarem e visualizar wishlist de múltiplas plataformas em um único local.
+
++ **Quarentena para compras:** Fornecer funcionalidade de lista como "quarentena" que permite ao consumidor um tempo maior para avaliar a real necessidade de um produto, discemir se ele verdadeiramente atende às expectativas e determinar se a aquisição do produto é fruto de um desejo ou influência de publicidades persuasivas.
+
++ **Notificações Ativas:** Implementar  um sistema de alertas que notifique os comsumidores sobre promoções, disponibilidade limitada dos produtos em suas wishlist e lembretes de compra de produtos em quarentena.
+   
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+O projeto proposto é de grande relevância, tendo em vista o aumento constante do comércio eletrônico no Brasil e as alterações no hábitos dos consumidores devido à pandemia e à necessidade de distanciamento social. Ele responde a uma necessidade real dos consumidores de gerenciar promocões e ofertas na vastidão de informações online, através de uma abordagem que centraliza *wishlists* em uma plataforma unificada, permitindo que os usuários monitorem produtos de interesse e recebam alertas sobre promoções. 
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A centralização proposta pelo prjeto apresenta uma solução eficaz para o rastreamento de ofertas, gerando impactos sociais positivos decisões de compra conscientes, minimizando aquisições impulsivas e consumo desnecessários.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
-
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-
+O público-alvo desta solução abrange indivíduos experientes em compras online, que frequentemente possuem múltiplas listas de desejos dispersas por diversos marketplaces e plataformas de e-commerce. Estes consumidores buscam uma abordagem mais reflexiva para suas compras, evitando impulsividade. Além disso, enfrentam a exposição constante a algoritmos de publicidade que podem influenciar artificialmente suas decisões de compra. A solução visa atender essa audiência, oferecendo uma ferramenta que centraliza e organiza suas wishilists, incentivando uma avaliação consciente antes da aquisição de produtos, e assim promovento um consumo mais alinhado com suas reais necessidades. 
