@@ -3,7 +3,7 @@
 
 ## User Flow
 
-O fluxo do usuário apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma 
+O fluxo do usuário apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo, acesse o ambiente tldraw do projeto através <a target="_blank" href="https://www.tldraw.com/r/pbEtfipHKyswZwyKtz_o0?viewport=132%2C-30%2C1792%2C978&page=page%3AQtW4HohN_XmMS9zcP_i4K">deste link</a>
 
 <img width="1206" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/c6d6c553-9c68-4487-b0c5-144006d9cd2f">
 <figure> 
