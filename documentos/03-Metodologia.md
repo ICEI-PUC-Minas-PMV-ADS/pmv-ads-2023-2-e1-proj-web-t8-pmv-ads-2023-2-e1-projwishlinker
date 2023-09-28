@@ -25,9 +25,9 @@ Para organizar e distribuir as tarefas do projeto, estamos utilizando o Trello, 
 
 Nosso kanban está disponível através do link https://trello.com/b/OXFVcNZu/wishlinker e é apresentado em seu estado atual como na figura abaixo:
 <figure> 
-  <img width="1434" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/ec69243d-2683-43c9-8e3a-8e81d8b35f0a">
+  <img width="1434" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/7fd694f2-063d-41f8-9165-ecca442d126b">
 <figcaption>Figura 1 - Quadro kanban de gestão ágil</figcaption>
-</figure> 
+</figure>
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
