@@ -14,4 +14,4 @@
 
 ## Prototipação
 
-- **Prototyping** (Usability.gov). Disponível em: [https://www.usability.gov/how-to-and-tools/methods/prototyping.html](https://www.usability.gov/how-to-and-tools/methods/prototyping.html). Acesso em: 20 jul. 2014.
+- **Prototyping** (Usability.gov). Disponível em: [https://www.usability.gov/how-to-and-tools/methods/prototyping.html](https://www.usability.gov/how-to-and-tools/methods/prototyping.html). Acesso em: 28 set. 2023.
