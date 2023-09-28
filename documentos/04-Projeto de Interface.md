@@ -106,7 +106,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
   <img width="1470" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/fac24ad7-9ff3-44b1-ac4e-2b61c4505d29">
 
 <figure> 
-    <figcaption>Figura 6 - Tela de Adicionar item na Quarentena de compras
+    <figcaption>Figura 10 - Tela de Adicionar item na Quarentena de compras
 </figure>
 <hr>
 
@@ -116,7 +116,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
   <img width="1462" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/f62f07ee-06d2-47c0-abd3-31b36e031323">
 
 <figure> 
-    <figcaption>Figura 7 - Tela de Editar item na Quarentena de compras
+    <figcaption>Figura 11 - Tela de Editar item na Quarentena de compras
 </figure>
 <hr> 
   
@@ -126,7 +126,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <img width="1472" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/7c1df89a-4e80-4f49-baa8-47b9f760efdd">
 
 <figure> 
-    <figcaption>Figura 8 - Tela de Remoção de item na Quarentena de compras
+    <figcaption>Figura 12 - Tela de Remoção de item na Quarentena de compras
 </figure>
 <hr>
 
@@ -136,6 +136,6 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <img width="1469" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/9c432eb2-d18c-4062-be45-d01505784023">
 
 <figure> 
-    <figcaption>Figura 8 - Tela de logout
+    <figcaption>Figura 13 - Tela de logout
 </figure>
 <hr>
