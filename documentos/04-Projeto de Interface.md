@@ -138,4 +138,3 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <figure> 
     <figcaption>Figura 13 - Tela de logout
 </figure>
-<hr>
