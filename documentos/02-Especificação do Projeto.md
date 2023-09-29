@@ -117,8 +117,7 @@ desnecessários.  |
 |RNF-02| A aplicação deve ser desenvolvida utilizando tecnologias em seu estado primitivo, como HTML, CSS e Javascript, para fins acadêmicos.  | ALTA | 
 |RNF-03| A aplicação deve ser otimizada para ser compatível com diferentes navegadores, incluindo Google Chrome, Firefox e Microsoft Edge.  | MÉDIA |
 |RNF-04| A aplicação deve ser desenvolvida sem a nececidade de login ou autenticação do usuário  | MÉDIA |  
-|RNF-05| A aplicação deve ser desenvolvida com esquema de cores de cores que garantam um bom contraste entre o texto e o plano de fundo para facilitar a leitura por pessoas com baixa visão.
-usuários  | BAIXA | 
+|RNF-05| A aplicação deve ser desenvolvida com esquema de cores de cores que garantam um bom contraste entre o texto e o plano de fundo para facilitar a leitura por pessoas com baixa visão.  | BAIXA | 
  
 
 
