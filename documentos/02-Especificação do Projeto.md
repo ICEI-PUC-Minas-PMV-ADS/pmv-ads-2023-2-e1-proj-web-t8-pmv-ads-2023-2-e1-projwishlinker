@@ -89,3 +89,38 @@ desnecessários.  |
 |Consumidor de Primeira Viagem | ter uma forma simples de acompanhar e gerenciar meus produtos desejados.  | poder ganhar confiança ao comprar online e me sentir mais seguro com minhas escolhas. |
 |Consumidor Econômico | receber notificações sobre promoções e descontos nos produtos que estão na minha lista. | aproveitar as melhores ofertas e fazer compras mais vantajosas. |
 
+
+## Requisitos
+
+### Requisitos Funcionais
+
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-01| A aplicação deve permitir que os usuários cadastrem produtos em suas wishlists, fornecendo detalhes como nome do produto, categoria, preço e site onde está listado.   | ALTA | 
+|RF-02| A aplicação deve permitir a visualização de informações completas sobre cada produto nas wishlists (lista de desejos), incluindo detalhes como nome, categoria, preço e site de origem.   | ALTA | 
+|RF-03| A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar os produtos na lista.    | ALTA |
+|RF-04| A aplicação deve permitir ao usuário visualizar produtos presentes em sua lista de quarentena pré-compra, incluindo detalhes como nome, categoria, preço e período de reflexão   | ALTA |
+|RF-05| A aplicação deve permitir ao usuário remova produtos tanto de suas wishlists quanto da lista de quarentena pré-compra, caso mude de ideia ou decida não prosseguir com a aquisição.   | ALTA |
+|RF-06| A aplicação deve possibilitar que o usuário marque produtos como 'já adquiridos' tanto em suas wishlists quanto na lista de quarentena pré-compra.    | MÉDIA |
+|RF-07| A aplicação deve permitir ao usuário receber notificações ou alertas quando o período de reflexão de um produto em sua lista de quarentena estiver próximo do fim.    | BAIXA |
+|RF-08| A aplicação deve disponibilizar ao usuário a opção de ordenar os produtos em suas wishlists e na lista de quarentena pré-compra de acordo com critérios como nome, preço ou categoria, a fim de organizar suas preferências de maneira conveniente.   | BAIXA |
+|RF-09| A aplicação deve oferecer uma funcionalidade de acessibilidade para deficientes visuais. | ALTA |
+
+
+**Prioridade: Alta / Média / Baixa.  
+
+### Requisitos Não Funcionais
+
+|ID     | Descrição do Requisito  |Prioridade |
+|-------|-------------------------|----|
+|RNF-01| A aplicação deve ser desenvolvida como web estática, não necessitando de backend. Os dados serão persistidos no Local Storage do navegador. | ALTA | 
+|RNF-02| A aplicação deve ser desenvolvida utilizando tecnologias em seu estado primitivo, como HTML, CSS e Javascript, para fins acadêmicos.  | ALTA | 
+|RNF-03| A aplicação deve ser otimizada para ser compatível com diferentes navegadores, incluindo Google Chrome, Firefox e Microsoft Edge.  | MÉDIA |
+|RNF-04| A aplicação deve ser desenvolvida sem a nececidade de login ou autenticação do usuário  | MÉDIA |  
+|RNF-05| A aplicação deve ser desenvolvida com esquema de cores de cores que garantam um bom contraste entre o texto e o plano de fundo para facilitar a leitura por pessoas com baixa visão.
+usuários  | BAIXA | 
+ 
+
+
+
+**Prioridade: Alta / Média / Baixa.
