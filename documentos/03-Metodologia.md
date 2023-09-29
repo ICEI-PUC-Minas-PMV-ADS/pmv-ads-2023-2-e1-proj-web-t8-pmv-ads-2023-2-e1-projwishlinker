@@ -50,9 +50,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | User Flow                           | Figma                              | https://www.figma.com/file/T3el0CrU3H2x7xXUMJvpeP/User-Flow---Wishlinker?type=whiteboard&node-id=0-1&t=gBDDuv5wkUzPLoHa-0 |
-| Projeto de Interface                | tldraw                             | [https://www.figma.com/file/T3el0CrU3H2x7xXUMJvpeP/User-Flow---Wishlinker?type=whiteboard&node-id=0-1&t=gBDDuv5wkUzPLoHa-0](https://www.tldraw.com/r/pbEtfipHKyswZwyKtz_o0?viewport=150%2C-68%2C1792%2C978&page=page%3AofvUITDb5Fjtw52TOednZ) |
+| Projeto de Interface                | tldraw                             | https://www.tldraw.com/r/pbEtfipHKyswZwyKtz_o0?viewport=150%2C-68%2C1792%2C978&page=page%3AofvUITDb5Fjtw52TOednZ |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/OXFVcNZu/wishlinker  |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Hospedagem                          | GitHub Pages                       | Não iniciado                            |
 
 | AMBIENTE                    | PLATAFORMA | LINK DE ACESSO                                              |
 |-----------------------------|------------|-------------------------------------------------------------|
