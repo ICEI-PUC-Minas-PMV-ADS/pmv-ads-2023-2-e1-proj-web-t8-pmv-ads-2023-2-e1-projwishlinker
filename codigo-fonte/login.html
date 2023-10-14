@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WishLinker</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
+    <link href="vendor/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="vendor/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <script src="scripts/load-data.js"></script>
+    <script src="scripts/login.js"></script>
+</head>
+<body class="bg-gradiente">
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="col-12 col-md-5">
+            <div class="card p-4 rounded-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="assets/logo-blue-box-text-white.png" alt="" class="logo-img">
+                    </div>
+                    <h5 class="text-center mb-2 mt-5">LOGIN</h5>
+                    <p class="text-center text-muted fw-light">Entre com suas credenciais de acesso</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="user" class="form-label">Usuário</label>
+                            <input type="text" class="form-control p-3" id="user" placeholder="Ex: thiago">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Senha</label>
+                            <input type="password" class="form-control p-3" id="password" placeholder="Digite sua senha">
+                        </div>
+                        <button id="loginButton" class="btn btn-primary w-100 my-3 p-3 fw-light">ENTRAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="vendor/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

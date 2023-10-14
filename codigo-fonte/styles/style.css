@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Noto+Sans:wght@100;400;500;700&display=swap');
+:root {
+  --branco: #FFF;
+  --azul: #3742FA;
+  --azul-escuro: #2F3542;
+  --azul-claro-1: #F0F9FF;
+  --azul-claro-2: #74C1ED;
+  --verde-claro-1: #E4FAE4;
+  --verde-claro-2: #6CDB77;
+  --amarelo-claro: #FEAF00;
+  --vermelho: #FE0000;
+  --cinza-claro: #F8F9FA;
+}
 
 #wrapper {
   overflow-x: hidden;
@@ -42,27 +53,19 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   }
 }
 
-.bg-blue {
-  background-color: #3742FA !important;
+.bg-gradiente {
+  background-image: linear-gradient(to bottom, #3742FA, #2F3542);
+  height: 100vh;
+  margin: 0;
 }
 
-.app-bar {
-  display: block;
-  height: 26px;
-  width: 6px;
-  background-color: #2F3542;
-  margin-top: 4px;
-}
-
-.app-name {
-  color: #FFF;
-  font-weight: 500;
-  font-size: 1.5rem;
-  font-family: 'Montserrat', sans-serif;
+.logo-img {
+  max-width: 100%;
+  height: 40px;
 }
 
 .initials {
-  background-color: #2F3542;
+  background-color: var(--azul-escuro);
   align-self: center;
   width: 8rem;
   height: 8rem;
@@ -95,4 +98,80 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 .list-group-item:last-child {
   margin-top: auto;
   margin-bottom: 12px;
+}
+
+.azul {
+  color: var(--azul) !important;
+}
+
+.azul-escuro {
+  color: var(--azul-escuro) !important;
+}
+
+.azul-claro-1 {
+  color: var(--azul-claro-1) !important;
+}
+
+.azul-claro-2 {
+  color: var(--azul-claro-2) !important;
+}
+
+.verde-claro-1 {
+  color: var(--verde-claro-1) !important;
+}
+
+.verde-claro-2 {
+  color: var(--verde-claro-2) !important;
+}
+
+.amarelo-claro {
+  color: var(--amarelo-claro) !important;
+}
+
+.vermelho {
+  color: var(--vermelho) !important;
+}
+
+.cinza-claro {
+  color: var(--cinza-claro) !important;
+}
+
+.bg-branco {
+  color: var(--branco) !important;
+}
+
+.bg-azul {
+  background-color: var(--azul) !important;
+}
+
+.bg-azul-escuro {
+  background-color: var(--azul-escuro) !important;
+}
+
+.bg-azul-claro-1 {
+  background-color: var(--azul-claro-1) !important;
+}
+
+.bg-azul-claro-2 {
+  background-color: var(--azul-claro-2) !important;
+}
+
+.bg-verde-claro-1 {
+  background-color: var(--verde-claro-1) !important;
+}
+
+.bg-verde-claro-2 {
+  background-color: var(--verde-claro-2) !important;
+}
+
+.bg-amarelo-claro {
+  background-color: var(--amarelo-claro) !important;
+}
+
+.bg-vermelho {
+  background-color: var(--vermelho) !important;
+}
+
+.bg-cinza-claro {
+  background-color: var(--cinza-claro) !important;
 }
