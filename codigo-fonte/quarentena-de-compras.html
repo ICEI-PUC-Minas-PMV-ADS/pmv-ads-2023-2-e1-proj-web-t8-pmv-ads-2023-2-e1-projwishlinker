@@ -69,7 +69,7 @@
             <div class="container-fluid p-4">
               <div class="d-flex justify-content-between align-items-center">
                 <h3 class="text-bold">Quarentena de compras</h3>
-                <button class="btn btn-primary h-50px me-3">ADICIONAR ITEM</button>
+                <button class="btn btn-primary h-50px me-3" id="adicionarItemButton">ADICIONAR ITEM</button>
               </div>
               <hr class="border-top opacity-75">
               <div class="table-wrapper">
@@ -97,52 +97,62 @@
 
     <!-- Diálogo de edição de produto -->
     <div id="editProductModal" class="modal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Editar Produto</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="editProductForm">
-                        <div class="mb-3">
-                            <input type="text" class="form-control p-3" id="editNome" placeholder="Item" required>
-                        </div>
-                        <div class="row mb-3">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title">Editar Produto</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+              </div>
+              <div class="modal-body">
+                  <form id="editProductForm">
+                      <div class="mb-3">
+                          <label for="editNome" class="form-label">Item</label>
+                          <input type="text" class="form-control p-3" id="editNome" placeholder="Item" required>
+                      </div>
+                      <div class="row mb-3">
                           <div class="col-6">
+                              <label for="editCategoria" class="form-label">Categoria</label>
                               <select class="form-select p-3" id="editCategoria" required>
-                                  <option value="1">Vestuário</option>
-                                  <option value="2">Eletrônicos</option>
-                                  <option value="3">Jogos</option>
-                              </select>
+                                <option value="Vestuário">Vestuário</option>
+                                <option value="Eletrônicos">Eletrônicos</option>
+                                <option value="Jogos">Jogos</option>
+                            </select>                            
                           </div>
                           <div class="col-6">
+                              <label for="editOrigem" class="form-label">Origem</label>
                               <select class="form-select p-3" id="editOrigem" required>
-                                  <option value="4">Netshoes</option>
-                                  <option value="5">Kabum</option>
-                                  <option value="6">Steam</option>
-                              </select>
+                                <option value="Netshoes">Netshoes</option>
+                                <option value="Kabum">Kabum</option>
+                                <option value="Steam">Steam</option>
+                            </select>
                           </div>
-                        </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control p-3" id="editValor" placeholder="Valor (R$)" required>
-                        </div>
-                        <div class="mb-4">
-                            <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Fim da Quarentena" required>
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="editAdquirido">
-                            <label class="form-check-label" for="editAdquirido">Adquirido</label>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-primary" id="saveEditButton">Salvar</button>
-                </div>
-            </div>
-        </div>
-    </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="editValor" class="form-label">URL</label>
+                        <input type="text" class="form-control p-3" id="editUrl" placeholder="http://" required>
+                    </div>
+                      <div class="mb-3">
+                          <label for="editValor" class="form-label">Valor (R$)</label>
+                          <input type="text" class="form-control p-3" id="editValor" placeholder="Valor (R$)" required>
+                      </div>
+                      <div class="mb-4">
+                          <label for="editFimQuarentena" class="form-label">Fim da Quarentena</label>
+                          <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Fim da Quarentena" required>
+                      </div>
+                      <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="editAdquirido">
+                          <label class="form-check-label" for="editAdquirido">Adquirido</label>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-primary" id="saveEditButton">Salvar</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  
 
     <script src="vendor/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
