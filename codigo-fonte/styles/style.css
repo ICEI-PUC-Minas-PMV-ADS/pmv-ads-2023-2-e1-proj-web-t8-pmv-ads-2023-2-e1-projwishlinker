@@ -197,3 +197,7 @@ table {
   border-collapse: separate !important;
   border-spacing: 0 15px !important;
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}

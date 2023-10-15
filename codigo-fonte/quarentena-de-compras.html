@@ -87,32 +87,63 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="bg-branco">
-                      <td scope="row" class="rounded-start-3 p-4">
-                        <i class="fa-solid fa-shirt fs-4 ms-2"></i>
-                      </td>
-                      <td class="p-4 fw-light">Vestuário</td>
-                      <td class="p-4 fw-light">Uniforme Cruzeiro 23/24 Modelo 1</td>
-                      <td class="p-4 fw-light">R$ 349,99</td>
-                      <td class="p-4 fw-light">Netshoes</td>
-                      <td class="p-4 fw-light">15/09/2023</td>
-                      <td class="p-4">
-                        <span class="bg-verde-claro-2 text-white py-1 px-2 rounded-2">Sim</span>
-                      </td>
-                      <td class="rounded-end-3 p-4 text-end">
-                        <i class="fa fa-eye verde-claro-2 pe-4 fs-4"></i>
-                        <i class="fa fa-pencil amarelo-claro pe-4 fs-4"></i>
-                        <i class="fa fa-trash vermelho me-3 fs-4"></i>
-                      </td>
-                    </tr>
+                    <!-- Conteúdo da tabela será preenchido com JavaScript -->
                   </tbody>
                 </table>
               </div>
-              
           </div>
         </div>
     </div>
 
+    <!-- Diálogo de edição de produto -->
+    <div id="editProductModal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Editar Produto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editProductForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control p-3" id="editNome" placeholder="Item" required>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col-6">
+                              <select class="form-select p-3" id="editCategoria" required>
+                                  <option value="1">Vestuário</option>
+                                  <option value="2">Eletrônicos</option>
+                                  <option value="3">Jogos</option>
+                              </select>
+                          </div>
+                          <div class="col-6">
+                              <select class="form-select p-3" id="editOrigem" required>
+                                  <option value="4">Netshoes</option>
+                                  <option value="5">Kabum</option>
+                                  <option value="6">Steam</option>
+                              </select>
+                          </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control p-3" id="editValor" placeholder="Valor (R$)" required>
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Fim da Quarentena" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="editAdquirido">
+                            <label class="form-check-label" for="editAdquirido">Adquirido</label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="saveEditButton">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="vendor/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
