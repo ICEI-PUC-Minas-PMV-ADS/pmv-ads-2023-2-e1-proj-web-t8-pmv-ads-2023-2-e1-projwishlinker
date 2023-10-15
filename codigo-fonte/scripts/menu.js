@@ -13,6 +13,7 @@ $(document).ready(function () {
     $("a:contains('Sair')").click(function (event) {
         event.preventDefault();
         localStorage.removeItem("loggedInUser");
+        localStorage.removeItem("users");
         window.location.href = "login.html";
     });
 

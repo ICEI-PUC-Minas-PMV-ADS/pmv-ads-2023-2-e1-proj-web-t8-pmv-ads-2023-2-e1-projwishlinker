@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&family=Noto+Sans:wght@100;400;500;700&display=swap');
+
 :root {
   --branco: #FFF;
   --azul: #3742FA;
@@ -9,6 +11,11 @@
   --amarelo-claro: #FEAF00;
   --vermelho: #FE0000;
   --cinza-claro: #F8F9FA;
+  --cinza-medio: #ACACAC;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 #wrapper {
@@ -75,18 +82,16 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   align-items: center;
   color: #FFF;
   font-size: 3.5rem;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 
 .fullname {
   color: #FFF;
-  font-family: 'Montserrat', sans-serif;
 }
 
 .list-group-item {
   color: #FFF !important;
   font-weight: 300;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 300;
 }
 
@@ -136,8 +141,12 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   color: var(--cinza-claro) !important;
 }
 
+.cinza-medio {
+  color: var(--cinza-medio) !important;
+}
+
 .bg-branco {
-  color: var(--branco) !important;
+  background-color: var(--branco) !important;
 }
 
 .bg-azul {
@@ -174,4 +183,17 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
 .bg-cinza-claro {
   background-color: var(--cinza-claro) !important;
+}
+
+.h-50px {
+  height: 50px;
+}
+
+.text-bold {
+  font-weight: 600 !important;
+}
+
+table {
+  border-collapse: separate !important;
+  border-spacing: 0 15px !important;
 }

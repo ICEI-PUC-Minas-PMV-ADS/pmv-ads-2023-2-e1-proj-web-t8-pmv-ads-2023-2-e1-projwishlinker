@@ -66,8 +66,49 @@
                 </div>
             </nav>
             <!-- Page content-->
-            <div class="container-fluid">
-              <h2 class="mt-4">Quarentena de compras</h2>
+            <div class="container-fluid p-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <h3 class="text-bold">Quarentena de compras</h3>
+                <button class="btn btn-primary h-50px me-3">ADICIONAR ITEM</button>
+              </div>
+              <hr class="border-top opacity-75">
+              <div class="table-wrapper">
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col"></th>
+                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Categoria</th>
+                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Item</th>
+                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Valor</th>
+                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Origem</th>
+                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Fim da quarentena</th>
+                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Adquirido</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="bg-branco">
+                      <td scope="row" class="rounded-start-3 p-4">
+                        <i class="fa-solid fa-shirt fs-4 ms-2"></i>
+                      </td>
+                      <td class="p-4 fw-light">Vestuário</td>
+                      <td class="p-4 fw-light">Uniforme Cruzeiro 23/24 Modelo 1</td>
+                      <td class="p-4 fw-light">R$ 349,99</td>
+                      <td class="p-4 fw-light">Netshoes</td>
+                      <td class="p-4 fw-light">15/09/2023</td>
+                      <td class="p-4">
+                        <span class="bg-verde-claro-2 text-white py-1 px-2 rounded-2">Sim</span>
+                      </td>
+                      <td class="rounded-end-3 p-4 text-end">
+                        <i class="fa fa-eye verde-claro-2 pe-4 fs-4"></i>
+                        <i class="fa fa-pencil amarelo-claro pe-4 fs-4"></i>
+                        <i class="fa fa-trash vermelho me-3 fs-4"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              
           </div>
         </div>
     </div>
