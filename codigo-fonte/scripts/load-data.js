@@ -8,6 +8,7 @@ function loadInitialData() {
       { id: 5, user: "leonidas", pass: "wish", firstname: "Leonidas", lastname: "Oliveira" },
       { id: 6, user: "gustavo", pass: "wish", firstname: "Gustavo", lastname: "Maciel" },
       { id: 7, user: "marco", pass: "wish", firstname: "Marco", lastname: "Rodrigo" },
+      { id: 8, user: "puc", pass: "wish", firstname: "PUC", lastname: "Minas" },
     ];
 
     localStorage.setItem("users", JSON.stringify(userPasswords));
