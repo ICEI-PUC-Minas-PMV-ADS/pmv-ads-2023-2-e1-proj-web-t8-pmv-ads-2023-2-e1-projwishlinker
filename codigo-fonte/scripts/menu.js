@@ -26,5 +26,15 @@ $(document).ready(function () {
             localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
         });
     }
+
+    var currentUrl = window.location.href;
+    var menuLinks = $(".list-group-item");
+
+    menuLinks.each(function() {
+        var link = $(this).attr("href");
+        if (currentUrl.includes(link)) {
+            $(this).addClass("menu-item-active");
+        }
+    });
 });
   

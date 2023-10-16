@@ -210,3 +210,8 @@ input::placeholder {
   opacity: 0.5 !important;
   color: var(--cinza-medio) !important;
 }
+
+.menu-item-active {
+  background-color: var(--azul-escuro) !important;
+  border-radius: 10px !important;
+}
