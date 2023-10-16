@@ -54,16 +54,16 @@ function abrirSiteProduto(url) {
         
         cell6.textContent = dataFormatada;
         cell7.innerHTML = `
-            <i class="fa fa-eye verde-claro-2 pe-4 fs-4 cursor-pointer" onclick="abrirSiteProduto('${produto.url}')"></i>
-            <i class="fa fa-pencil amarelo-claro pe-4 fs-4 editar-produto cursor-pointer "
-                data-produto-id="${produto.id}"
-                data-produto-categoria="${produto.categoria}"
-                data-produto-nome="${produto.nome}"
-                data-produto-url="${produto.url}"
-                data-produto-valor="${produto.valor}"
-                data-produto-origem="${produto.origem}"
-            <i class="fa fa-pencil vermelho me-3 fs-4 cursor-pointer" onclick="confirmarExclusao(${produto.id}, preencherTabela)"></i>
-        `;
+          <i class="fa fa-eye verde-claro-2 pe-4 fs-4 cursor-pointer" onclick="abrirSiteProduto('${produto.url}')"></i>
+          <i class="fa fa-pencil amarelo-claro pe-4 fs-4 editar-produto cursor-pointer "
+              data-produto-id="${produto.id}"
+              data-produto-categoria="${produto.categoria}"
+              data-produto-nome="${produto.nome}"
+              data-produto-url="${produto.url}"
+              data-produto-valor="${produto.valor}"
+              data-produto-origem="${produto.origem}"></i>
+          <i class="fa fa-trash vermelho me-3 fs-4 cursor-pointer" onclick="confirmarExclusao(${produto.id}, preencherTabela)"></i>
+      `;
     });
   
     $(".editar-produto").click(function () {
@@ -126,11 +126,13 @@ function abrirSiteProduto(url) {
             const url = $("#editUrl").val();
             const valor = $("#editValor").val();
             const origem = $("#editOrigem").val();
+            const dataCadastro = new Date();
             novoItem.categoria = categoria;
             novoItem.nome = nome;
             novoItem.url = url;
             novoItem.valor = valor;
             novoItem.origem = origem;
+            novoItem.dataCadastro = dataCadastro.toLocaleDateString("pt-BR");
             const produtos = JSON.parse(localStorage.getItem("listaDeDesejos")) || [];
             produtos.push(novoItem);
             localStorage.setItem("listaDeDesejos", JSON.stringify(produtos));
@@ -170,30 +172,30 @@ function abrirSiteProduto(url) {
   // array que estou utilizando para testar o código
 //   [
 //     {
-//       "id": 1,
-//       "categoria": "Vestuário",
-//       "nome": "Camiseta Preta",
-//       "valor": 29.99,
-//       "origem": "Netshoes",
-//       "url": "https://www.lojaa.com/camiseta-preta",
-//       "dataCadastro": "15/10/2023"
+//         "id": 4,
+//         "categoria": "Vestuário",
+//         "nome": "Tênis Nike Air Max Impact 4",
+//         "valor": "439,99",
+//         "origem": "Netshoes",
+//         "url": "https://www.netshoes.com.br/tenis-nike-air-max-impact-4-masculino-preto-JD8-3681-006",
+//         "dataCadastro": "16/10/2023"
 //     },
 //     {
-//       "id": 2,
-//       "categoria": "Eletrônicos",
-//       "nome": "Smartphone",
-//       "valor": 899.99,
-//       "origem": "Kabum",
-//       "url": "https://www.lojab.com/smartphone",
-//       "dataCadastro": "10/10/2023"
+//         "id": 5,
+//         "categoria": "Eletrônicos",
+//         "nome": "Placa Mãe Gigabyte B760M AORUS ELITE",
+//         "valor": "1129,99",
+//         "origem": "Kabum",
+//         "url": "https://www.kabum.com.br/produto/419108/placa-mae-gigabyte-b760m-aorus-elite-rev-1-0-lga-1700-ddr5",
+//         "dataCadastro": "16/10/2023"
 //     },
 //     {
-//       "id": 3,
-//       "categoria": "Jogos",
-//       "nome": "Starfield",
-//       "valor": 349.49,
-//       "origem": "Steam",
-//       "url": "https://www.steampowered.com/jogo",
-//       "dataCadastro": "15/10/2023"
+//         "id": 6,
+//         "categoria": "Jogos",
+//         "nome": "Cyberpunk 2077",
+//         "valor": "199,90",
+//         "origem": "Steam",
+//         "url": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
+//         "dataCadastro": "16/10/2023"
 //     }
-//   ]
+// ]
