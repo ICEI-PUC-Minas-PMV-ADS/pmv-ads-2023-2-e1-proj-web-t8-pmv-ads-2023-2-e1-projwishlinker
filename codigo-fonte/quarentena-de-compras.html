@@ -7,155 +7,150 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
-    <link
-      href="vendor/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="vendor/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="vendor/jquery-3.6.0/jquery-3.6.0.min.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/quarentena-de-compras.js"></script>
   </head>
-
   <body>
     <div class="d-flex" id="wrapper">
-        <!-- Sidebar-->
-        <div class="border-end bg-azul" id="sidebar-wrapper">
-            <div class="sidebar-heading">
-              <div class="d-flex justify-content-center align-items-center">
-                <img src="assets/wishlinker-high-resolution-logo-color-on-transparent-background.png" alt="" class="logo-img">
-              </div>
-              <div class="d-flex flex-column align-items-center my-5">
-                <div class="initials"></div>
-                <div class="fullname mt-3"></div>
-              </div>
-            </div>
-            <div class="list-group list-group-flush">
-              <a class="list-group-item bg-azul mx-2 p-3 border-0" href="dashboard.html">
-                <div class="d-flex align-items-center">
-                  <i class="las la-home fs-4 ms-1 me-2"></i>
-                  <div class="mt-1">Início</div>
-                </div>
-              </a>
-              <a class="list-group-item bg-azul mx-2 p-3 border-0" href="lista-de-desejos.html">
-                <div class="d-flex align-items-center">
-                  <i class="fa-regular fa-heart fs-5 ms-1 me-2"></i>
-                  <div>Lista de desejos</div>
-                </div>
-              </a>
-              <a class="list-group-item bg-azul mx-2 p-3 border-0" href="quarentena-de-compras.html">
-                <div class="d-flex align-items-center">
-                  <i class="las la-shopping-cart fs-3 me-1"></i>
-                  <div class="mt-1">Quarentena de compras</div>
-                </div>
-              </a>
-              <a class="list-group-item bg-azul mx-2 p-3 border-0" href="#!">
-                <div class="d-flex align-items-center">
-                  <i class="fa-solid fa-arrow-right-from-bracket fs-6 ms-2 me-2"></i>
-                  <div class="me-1">Sair</div>
-                </div>
-              </a>              
-            </div>
-        </div>
-
-        <!-- Page content wrapper-->
-        <div id="page-content-wrapper" class="bg-cinza-claro">
-            <!-- Top navigation-->
-            <nav class="navbar navbar-expand-lg bg-branco">
-                <div class="container-fluid">
-                    <button class="btn bg-azul text-white" id="sidebarToggle"><i class="fas fa-bars"></i></button>
-                </div>
-            </nav>
-            <!-- Page content-->
-            <div class="container-fluid p-4">
-              <div class="d-flex justify-content-between align-items-center">
-                <h3 class="text-bold">Quarentena de compras</h3>
-                <button class="btn btn-primary h-50px me-3 d-flex align-items-center" id="adicionarItemButton">
-                  <i class="fa fa-plus-circle fs-4 me-2"></i>
-                  <span class="fw-normal fs-7">ADICIONAR ITEM</span></button>
-              </div>
-              <hr class="border-top opacity-75">
-              <div class="table-wrapper">
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Categoria</th>
-                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Item</th>
-                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Valor</th>
-                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Origem</th>
-                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Fim da quarentena</th>
-                      <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Adquirido</th>
-                      <th scope="col"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <!-- Conteúdo da tabela será preenchido com JavaScript -->
-                  </tbody>
-                </table>
-              </div>
+      <!-- Sidebar-->
+      <div class="border-end bg-azul" id="sidebar-wrapper">
+        <div class="sidebar-heading">
+          <div class="d-flex justify-content-center align-items-center">
+            <img src="assets/wishlinker-high-resolution-logo-color-on-transparent-background.png" alt="" class="logo-img">
+          </div>
+          <div class="d-flex flex-column align-items-center my-5">
+            <div class="initials"></div>
+            <div class="fullname mt-3"></div>
           </div>
         </div>
+        <div class="list-group list-group-flush">
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="dashboard.html">
+            <div class="d-flex align-items-center">
+              <i class="las la-home fs-4 ms-1 me-2"></i>
+              <div class="mt-1 fs-7">Início</div>
+            </div>
+          </a>
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="lista-de-desejos.html">
+            <div class="d-flex align-items-center">
+              <i class="fa-regular fa-heart fs-5 ms-1 me-2"></i>
+              <div class="fs-7">Lista de desejos</div>
+            </div>
+          </a>
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="quarentena-de-compras.html">
+            <div class="d-flex align-items-center">
+              <i class="las la-shopping-cart fs-3 me-1"></i>
+              <div class="mt-1 fs-7">Quarentena de compras</div>
+            </div>
+          </a>
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="#!">
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-arrow-right-from-bracket fs-6 ms-2 me-2"></i>
+              <div class="me-1 fs-7">Sair</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper" class="bg-cinza-claro">
+        <!-- Top navigation-->
+        <nav class="navbar navbar-expand-lg bg-branco">
+          <div class="container-fluid">
+            <button class="btn bg-azul text-white" id="sidebarToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container-fluid p-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <h3 class="text-bold">Quarentena de compras</h3>
+            <button class="btn btn-primary h-50px me-3 d-flex align-items-center" id="adicionarItemButton">
+              <i class="fa fa-plus-circle fs-4 me-2"></i>
+              <span class="fw-normal fs-7">ADICIONAR ITEM</span>
+            </button>
+          </div>
+          <hr class="border-top opacity-75">
+          <div class="table-wrapper">
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Categoria</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Item</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Valor</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Origem</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Fim da quarentena</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Adquirido</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Conteúdo da tabela será preenchido com JavaScript -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
-
     <!-- Diálogo de edição de produto -->
     <div id="editProductModal" class="modal" tabindex="-1">
       <div class="modal-dialog">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Editar Produto</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
-              </div>
-              <div class="modal-body">
-                  <form id="editProductForm">
-                      <div class="mb-3">
-                          <label for="editNome" class="form-label">Item</label>
-                          <input type="text" class="form-control p-3" id="editNome" placeholder="Ex: Memória RAM" required>
-                      </div>
-                      <div class="row mb-3">
-                          <div class="col-6">
-                              <label for="editCategoria" class="form-label">Categoria</label>
-                              <select class="form-select p-3" id="editCategoria" required>
-                                <option value="Vestuário">Vestuário</option>
-                                <option value="Eletrônicos">Eletrônicos</option>
-                                <option value="Jogos">Jogos</option>
-                            </select>                            
-                          </div>
-                          <div class="col-6">
-                              <label for="editOrigem" class="form-label">Origem</label>
-                              <select class="form-select p-3" id="editOrigem" required>
-                                <option value="Netshoes">Netshoes</option>
-                                <option value="Kabum">Kabum</option>
-                                <option value="Steam">Steam</option>
-                            </select>
-                          </div>
-                      </div>
-                      <div class="mb-3">
-                        <label for="editValor" class="form-label">URL</label>
-                        <input type="text" class="form-control p-3" id="editUrl" placeholder="Ex: http://mercadolivre.com.br/memoria-ram" required>
-                    </div>
-                      <div class="mb-3">
-                          <label for="editValor" class="form-label">Valor (R$)</label>
-                          <input type="text" class="form-control p-3" id="editValor" placeholder="Ex: 400,00" required>
-                      </div>
-                      <div class="mb-4">
-                          <label for="editFimQuarentena" class="form-label">Fim da Quarentena</label>
-                          <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Ex: 01/01/2024" required>
-                      </div>
-                      <div class="mb-3 form-check">
-                          <input type="checkbox" class="form-check-input" id="editAdquirido">
-                          <label class="form-check-label" for="editAdquirido">Adquirido</label>
-                      </div>
-                  </form>
-              </div>
-              <div class="modal-footer">
-                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                  <button type="button" class="btn btn-primary" id="saveEditButton">Salvar</button>
-              </div>
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Editar Produto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
+          <div class="modal-body">
+            <form id="editProductForm">
+              <div class="mb-3">
+                <label for="editNome" class="form-label">Item</label>
+                <input type="text" class="form-control p-3" id="editNome" placeholder="Ex: Memória RAM" required>
+              </div>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <label for="editCategoria" class="form-label">Categoria</label>
+                  <select class="form-select p-3" id="editCategoria" required>
+                    <option value="Vestuário">Vestuário</option>
+                    <option value="Eletrônicos">Eletrônicos</option>
+                    <option value="Jogos">Jogos</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label for="editOrigem" class="form-label">Origem</label>
+                  <select class="form-select p-3" id="editOrigem" required>
+                    <option value="Netshoes">Netshoes</option>
+                    <option value="Kabum">Kabum</option>
+                    <option value="Steam">Steam</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="editValor" class="form-label">URL</label>
+                <input type="text" class="form-control p-3" id="editUrl" placeholder="Ex: http://mercadolivre.com.br/memoria-ram" required>
+              </div>
+              <div class="mb-3">
+                <label for="editValor" class="form-label">Valor (R$)</label>
+                <input type="text" class="form-control p-3" id="editValor" placeholder="Ex: 400,00" required>
+              </div>
+              <div class="mb-4">
+                <label for="editFimQuarentena" class="form-label">Fim da Quarentena</label>
+                <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Ex: 01/01/2024" required>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="editAdquirido">
+                <label class="form-check-label" for="editAdquirido">Adquirido</label>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-primary" id="saveEditButton">Salvar</button>
+          </div>
+        </div>
       </div>
-  </div>
-  
-
+    </div>
     <script src="vendor/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/libs/jquery.inputmask.min.js"></script>
   </body>

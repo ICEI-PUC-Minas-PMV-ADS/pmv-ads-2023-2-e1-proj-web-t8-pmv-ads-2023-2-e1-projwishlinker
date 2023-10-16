@@ -213,5 +213,5 @@ input::placeholder {
 
 .menu-item-active {
   background-color: var(--azul-escuro) !important;
-  border-radius: 10px !important;
+  border-radius: 6px !important;
 }
