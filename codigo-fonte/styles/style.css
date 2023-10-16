@@ -193,6 +193,10 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   font-weight: 600 !important;
 }
 
+.fs-7 {
+  font-size: 0.875rem !important;
+}
+
 table {
   border-collapse: separate !important;
   border-spacing: 0 15px !important;
@@ -200,4 +204,9 @@ table {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+input::placeholder {
+  opacity: 0.5 !important;
+  color: var(--cinza-medio) !important;
 }

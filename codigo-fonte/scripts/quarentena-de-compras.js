@@ -48,7 +48,7 @@ function preencherTabela(produtos) {
       cell1.innerHTML = `<i class="fa-solid fa-shirt fs-4 ms-2"></i>`;
       cell2.textContent = produto.categoria;
       cell3.textContent = produto.nome;
-      cell4.textContent = `R$ ${produto.valor.toFixed(2).replace(".", ",")}`;
+      cell4.textContent = `R$ ${produto.valor}`;
       cell5.textContent = produto.origem;
 
       const dataParts = produto.fimQuarentena.split("/");
@@ -88,7 +88,7 @@ function preencherTabela(produtos) {
           produtoEditando.categoria = $("#editCategoria").val();
           produtoEditando.nome = $("#editNome").val();
           produtoEditando.url = $("#editUrl").val();
-          produtoEditando.valor = parseFloat($("#editValor").val());
+          produtoEditando.valor = $("#editValor").val();
           produtoEditando.origem = $("#editOrigem").val();
           produtoEditando.fimQuarentena = $("#editFimQuarentena").val();
           produtoEditando.adquirido = $("#editAdquirido").prop("checked");
@@ -134,7 +134,7 @@ function preencherTabela(produtos) {
           const categoria = $("#editCategoria").val();
           const nome = $("#editNome").val();
           const url = $("#editUrl").val();
-          const valor = parseFloat($("#editValor").val());
+          const valor = $("#editValor").val();
           const origem = $("#editOrigem").val();
           const fimQuarentena = $("#editFimQuarentena").val();
           const adquirido = $("#editAdquirido").prop("checked");
@@ -164,11 +164,11 @@ function calcularEstadoDoProduto(produto) {
   );
   let elementoHTML = "";
   if (produto.adquirido) {
-      elementoHTML = `<span class="bg-verde-claro-2 text-white py-1 px-2 rounded-2">Sim</span>`;
+      elementoHTML = `<span class="bg-verde-claro-2 text-white py-1 px-2 rounded-4 fs-7">Sim</span>`;
   } else if (hoje < dataFormatada) {
-      elementoHTML = `<span class="bg-amarelo-claro text-white py-1 px-2 rounded-2">Em análise</span>`;
+      elementoHTML = `<span class="bg-amarelo-claro text-white py-1 px-2 rounded-4 fs-7">Em análise</span>`;
   } else {
-      elementoHTML = `<span class="bg-vermelho text-white py-1 px-2 rounded-2">Não</span>`;
+      elementoHTML = `<span class="bg-vermelho text-white py-1 px-2 rounded-4 fs-7">Não</span>`;
   }
   return elementoHTML;
 }
@@ -179,6 +179,9 @@ function exibirMensagemVazia() {
 }
 
 $(document).ready(function () {
+  $('#editValor').inputmask('currency', { alias: 'numeric', rightAlign: false, radixPoint: ',', digits: 2 });
+  $('#editFimQuarentena').inputmask('99/99/9999');
+
   if (localStorage.getItem("quarentenaDeCompras")) {
       const produtos = JSON.parse(localStorage.getItem("quarentenaDeCompras"));
       let nextItemId = 1;
