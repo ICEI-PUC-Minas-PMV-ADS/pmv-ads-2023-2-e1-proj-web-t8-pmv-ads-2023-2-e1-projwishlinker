@@ -61,8 +61,8 @@ function abrirSiteProduto(url) {
                 data-produto-nome="${produto.nome}"
                 data-produto-url="${produto.url}"
                 data-produto-valor="${produto.valor}"
-                data-produto-origem="${produto.origem}"
-            <i class="fa fa-pencil vermelho me-3 fs-4 cursor-pointer" onclick="confirmarExclusao(${produto.id}, preencherTabela)"></i>
+                data-produto-origem="${produto.origem}"></i>
+            <i class="fa fa-trash vermelho me-3 fs-4 cursor-pointer" onclick="confirmarExclusao(${produto.id}, preencherTabela)"></i>
         `;
     });
   
@@ -166,34 +166,3 @@ function abrirSiteProduto(url) {
   });
   
   //TODO: deixar botão salvar desativado até que todos os campos required sejam preenchidos
-  
-  // array que estou utilizando para testar o código
-//   [
-//     {
-//       "id": 1,
-//       "categoria": "Vestuário",
-//       "nome": "Camiseta Preta",
-//       "valor": 29.99,
-//       "origem": "Netshoes",
-//       "url": "https://www.lojaa.com/camiseta-preta",
-//       "dataCadastro": "15/10/2023"
-//     },
-//     {
-//       "id": 2,
-//       "categoria": "Eletrônicos",
-//       "nome": "Smartphone",
-//       "valor": 899.99,
-//       "origem": "Kabum",
-//       "url": "https://www.lojab.com/smartphone",
-//       "dataCadastro": "10/10/2023"
-//     },
-//     {
-//       "id": 3,
-//       "categoria": "Jogos",
-//       "nome": "Starfield",
-//       "valor": 349.49,
-//       "origem": "Steam",
-//       "url": "https://www.steampowered.com/jogo",
-//       "dataCadastro": "15/10/2023"
-//     }
-//   ]
