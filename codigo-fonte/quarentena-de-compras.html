@@ -33,25 +33,25 @@
           <a class="list-group-item bg-azul mx-3 p-3 border-0" href="dashboard.html">
             <div class="d-flex align-items-center">
               <i class="las la-home fs-4 ms-1 me-2"></i>
-              <div class="mt-1 fs-7">Início</div>
+              <div class="mt-1 fs-7" aria-label="Início">Início</div>
             </div>
           </a>
           <a class="list-group-item bg-azul mx-3 p-3 border-0" href="lista-de-desejos.html">
             <div class="d-flex align-items-center">
               <i class="fa-regular fa-heart fs-5 ms-1 me-2"></i>
-              <div class="fs-7">Lista de desejos</div>
+              <div class="fs-7" aria-label="Lista de desejos">Lista de desejos</div>
             </div>
           </a>
           <a class="list-group-item bg-azul mx-3 p-3 border-0" href="quarentena-de-compras.html">
             <div class="d-flex align-items-center">
               <i class="las la-shopping-cart fs-3 me-1"></i>
-              <div class="mt-1 fs-7">Quarentena de compras</div>
+              <div class="mt-1 fs-7" aria-label="Quarentena de compras">Quarentena de compras</div>
             </div>
           </a>
           <a class="list-group-item bg-azul mx-3 p-3 border-0" href="#!">
             <div class="d-flex align-items-center">
               <i class="fa-solid fa-arrow-right-from-bracket fs-6 ms-2 me-2"></i>
-              <div class="me-1 fs-7">Sair</div>
+              <div class="me-1 fs-7" aria-label="Sair">Sair</div>
             </div>
           </a>
         </div>
@@ -69,10 +69,10 @@
         <!-- Page content-->
         <div class="container-fluid p-4">
           <div class="d-flex justify-content-between align-items-center">
-            <h3 class="text-bold">Quarentena de compras</h3>
+            <h3 class="text-bold" aria-label="Quarentena de compras">Quarentena de compras</h3>
             <button class="btn btn-primary h-50px me-3 d-flex align-items-center" id="adicionarItemButton">
               <i class="fa fa-plus-circle fs-4 me-2"></i>
-              <span class="fw-normal fs-7">ADICIONAR ITEM</span>
+              <span class="fw-normal fs-7" aria-label="ADICIONAR ITEM">ADICIONAR ITEM</span>
             </button>
           </div>
           <hr class="border-top opacity-75">
@@ -81,12 +81,12 @@
               <thead>
                 <tr>
                   <th scope="col"></th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Categoria</th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Item</th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Valor</th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Origem</th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Fim da quarentena</th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Adquirido</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Categoria">Categoria</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Item">Item</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Valor"> Valor</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Origem">Origem</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Fim da quarentena">Fim da quarentena</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Adquirido">Adquirido</th>
                   <th scope="col"></th>
                 </tr>
               </thead>
@@ -103,58 +103,58 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="modalActionText">Editar Produto</h5>
+            <h5 class="modal-title" id="modalActionText" aria-label="Editar Produto">Editar Produto</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
           </div>
           <div class="modal-body">
             <form id="editProductForm">
               <div class="mb-3">
-                <label for="editNome" class="form-label">Item</label>
+                <label for="editNome" class="form-label" aria-label="Item">Item</label>
                 <input type="text" class="form-control p-3" id="editNome" placeholder="Ex: Memória RAM" required>
               </div>
               <div class="row mb-3">
                 <div class="col-6">
-                  <label for="editCategoria" class="form-label">Categoria</label>
+                  <label for="editCategoria" class="form-label" aria-label="Categoria">Categoria</label>
                   <select class="form-select p-3" id="editCategoria" required>
-                    <option value="Vestuário">Vestuário</option>
-                    <option value="Eletrônicos">Eletrônicos</option>
-                    <option value="Jogos">Jogos</option>
+                    <option value="Vestuário" aria-label="Vestuário">Vestuário</option>
+                    <option value="Eletrônicos" aria-label="Eletrônicos">Eletrônicos</option>
+                    <option value="Jogos" aria-label="Jogos">Jogos</option>
                   </select>
                 </div>
                 <div class="col-6">
-                  <label for="editOrigem" class="form-label">Origem</label>
+                  <label for="editOrigem" class="form-label" aria-label="Origem">Origem</label>
                   <select class="form-select p-3" id="editOrigem" required>
-                    <option value="Netshoes">Netshoes</option>
-                    <option value="Kabum">Kabum</option>
-                    <option value="Steam">Steam</option>
+                    <option value="Netshoes" aria-label="Opção: Netshoes">Netshoes</option>
+                    <option value="Kabum" aria-label="Opção: Kabum">Kabum</option>
+                    <option value="Steam" aria-label="Opção: Steam">Steam</option>
                   </select>
                 </div>
               </div>
               <div class="mb-3">
-                <label for="editValor" class="form-label">URL</label>
+                <label for="editValor" class="form-label" aria-label="URL">URL</label>
                 <input type="text" class="form-control p-3" id="editUrl" placeholder="Ex: http://mercadolivre.com.br/memoria-ram" required>
               </div>
               <div class="mb-3">
-                <label for="editValor" class="form-label">Valor (R$)</label>
+                <label for="editValor" class="form-label" aria-label="Valor">Valor (R$)</label>
                 <input type="text" class="form-control p-3" id="editValor" placeholder="Ex: 400,00" required>
               </div>
               <div class="mb-4">
-                <label for="editFimQuarentena" class="form-label">Fim da Quarentena</label>
+                <label for="editFimQuarentena" class="form-label" aria-label="Fim da Quarentena">Fim da Quarentena</label>
                 <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Ex: 01/01/2024" required>
               </div>
               <div class="mb-3 form-check">
                 <input type="checkbox" class="form-check-input" id="editAdquirido">
-                <label class="form-check-label" for="editAdquirido">Adquirido</label>
+                <label class="form-check-label" for="editAdquirido" aria-label="Adquirido">Adquirido</label>
               </div>
             </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-danger d-flex align-items-center" data-bs-dismiss="modal">
-              <i class="fa fa-cancel me-2"></i>
+              <i class="fa fa-cancel me-2" aria-label="Cancelar"></i>
               Cancelar
             </button>
             <button type="button" class="btn btn-primary d-flex align-items-center" id="saveEditButton">
-              <i class="fa fa-save me-2"></i>
+              <i class="fa fa-save me-2" aria-label="Salvar"></i>
               Salvar
             </button>
           </div>
