@@ -22,7 +22,7 @@
       <div class="border-end bg-azul" id="sidebar-wrapper">
         <div class="sidebar-heading">
           <div class="d-flex justify-content-center align-items-center">
-            <img src="assets/wishlinker-high-resolution-logo-color-on-transparent-background.png" alt="" class="logo-img">
+            <img src="assets/wishlinker-high-resolution-logo-color-on-transparent-background.png" alt="logo-blue-box-text-white" class="logo-img" aria-label="Logo">
           </div>
           <div class="d-flex flex-column align-items-center my-5">
             <div class="initials"></div>
@@ -30,25 +30,25 @@
           </div>
         </div>
         <div class="list-group list-group-flush">
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="dashboard.html">
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="dashboard.html" aria-label="Ir para o Início">
             <div class="d-flex align-items-center">
               <i class="las la-home fs-4 ms-1 me-2"></i>
               <div class="mt-1 fs-7" aria-label="Início">Início</div>
             </div>
           </a>
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="lista-de-desejos.html">
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="lista-de-desejos.html" aria-label="Ir para a Lista de Desejos">
             <div class="d-flex align-items-center">
               <i class="fa-regular fa-heart fs-5 ms-1 me-2"></i>
               <div class="fs-7" aria-label="Lista de desejos">Lista de desejos</div>
             </div>
           </a>
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="quarentena-de-compras.html">
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="quarentena-de-compras.html" aria-label="Ir para a Quarentena de Compras">
             <div class="d-flex align-items-center">
               <i class="las la-shopping-cart fs-3 me-1"></i>
               <div class="mt-1 fs-7" aria-label="Quarentena de compras">Quarentena de compras</div>
             </div>
           </a>
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="#!">
+          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="#!" aria-label="Sair">
             <div class="d-flex align-items-center">
               <i class="fa-solid fa-arrow-right-from-bracket fs-6 ms-2 me-2"></i>
               <div class="me-1 fs-7" aria-label="Sair">Sair</div>
@@ -59,9 +59,9 @@
       <!-- Page content wrapper-->
       <div id="page-content-wrapper" class="bg-cinza-claro">
         <!-- Top navigation-->
-        <nav class="navbar navbar-expand-lg bg-branco">
+        <nav class="navbar navbar-expand-lg bg-branco" aria-label="Navegação Principal">
           <div class="container-fluid">
-            <button class="btn bg-azul text-white" id="sidebarToggle">
+            <button class="btn bg-azul text-white" id="sidebarToggle" aria-label="Alternar Barra Lateral">
               <i class="fas fa-bars"></i>
             </button>
           </div>
@@ -70,8 +70,8 @@
         <div class="container-fluid p-4">
           <div class="d-flex justify-content-between align-items-center">
             <h3 class="text-bold" aria-label="Quarentena de compras">Quarentena de compras</h3>
-            <button class="btn btn-primary h-50px me-3 d-flex align-items-center" id="adicionarItemButton">
-              <i class="fa fa-plus-circle fs-4 me-2"></i>
+            <button class="btn btn-primary h-50px me-3 d-flex align-items-center" id="adicionarItemButton" aria-label="Adicionar Item">
+              <i class="fa fa-plus-circle fs-4 me-2" aria-label="Ícone de adicionar"></i>
               <span class="fw-normal fs-7" aria-label="ADICIONAR ITEM">ADICIONAR ITEM</span>
             </button>
           </div>
@@ -83,7 +83,7 @@
                   <th scope="col"></th>
                   <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Categoria">Categoria</th>
                   <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Item">Item</th>
-                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Valor"> Valor</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Valor">Valor</th>
                   <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Origem">Origem</th>
                   <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Fim da quarentena">Fim da quarentena</th>
                   <th scope="col" class="fs-7 cinza-medio fw-normal px-4" aria-label="Adquirido">Adquirido</th>
@@ -131,7 +131,7 @@
                 </div>
               </div>
               <div class="mb-3">
-                <label for="editValor" class="form-label" aria-label="URL">URL</label>
+                <label for="editUrl" class="form-label" aria-label="URL">URL</label>
                 <input type="text" class="form-control p-3" id="editUrl" placeholder="Ex: http://mercadolivre.com.br/memoria-ram" required>
               </div>
               <div class="mb-3">
@@ -143,17 +143,17 @@
                 <input type="text" class="form-control p-3" id="editFimQuarentena" placeholder="Ex: 01/01/2024" required>
               </div>
               <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="editAdquirido">
-                <label class="form-check-label" for="editAdquirido" aria-label="Adquirido">Adquirido</label>
+                <input type="checkbox" class="form-check-input" id="editAdquirido" aria-label="Adquirido">
+                <label class="form-check-label" for="editAdquirido">Adquirido</label>
               </div>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-danger d-flex align-items-center" data-bs-dismiss="modal">
+            <button type="button" class="btn btn-danger d-flex align-items-center" data-bs-dismiss="modal" aria-label="Cancelar">
               <i class="fa fa-cancel me-2" aria-label="Cancelar"></i>
               Cancelar
             </button>
-            <button type="button" class="btn btn-primary d-flex align-items-center" id="saveEditButton">
+            <button type="button" class="btn btn-primary d-flex align-items-center" id="saveEditButton" aria-label="Salvar">
               <i class="fa fa-save me-2" aria-label="Salvar"></i>
               Salvar
             </button>
