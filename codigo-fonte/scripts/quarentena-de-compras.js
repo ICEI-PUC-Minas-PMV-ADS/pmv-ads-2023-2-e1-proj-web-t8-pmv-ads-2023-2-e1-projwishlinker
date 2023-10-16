@@ -73,6 +73,8 @@ function preencherTabela(produtos) {
   });
 
   $(".editar-produto").click(function () {
+      $("#modalActionText").text("Editar Produto");
+      
       const produtoId = $(this).data("produto-id");
       const produtoEditando = produtos.find((produto) => produto.id === produtoId);
       $("#editCategoria").val(produtoEditando.categoria);
@@ -103,6 +105,8 @@ function preencherTabela(produtos) {
   });
 
   $("#adicionarItemButton").click(function () {
+    $("#modalActionText").text("Adicionar Produto");
+
       const produtosCadastrados = JSON.parse(localStorage.getItem("quarentenaDeCompras"));
       let nextItemId = 1;
       if (produtosCadastrados.length > 0) {
