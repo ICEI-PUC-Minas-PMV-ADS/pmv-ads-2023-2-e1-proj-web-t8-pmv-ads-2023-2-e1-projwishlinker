@@ -70,10 +70,89 @@
         <div class="container-fluid p-4">
           <div class="d-flex justify-content-between align-items-center">
             <h3 class="text-bold">Lista de desejos</h3>
+            <button class="btn btn-primary h-50px me-3 d-flex align-items-center" id="adicionarItemButton">
+              <i class="fa fa-plus-circle fs-4 me-2"></i>
+              <span class="fw-normal fs-7">ADICIONAR ITEM</span>
+            </button>
+          </div>
+          <hr class="border-top opacity-75">
+          <div class="table-wrapper">
+            <table class="table table-borderless">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Categoria</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Item</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Valor</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Origem</th>
+                  <th scope="col" class="fs-7 cinza-medio fw-normal px-4">Adicionado</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Conteúdo da tabela será preenchido com JavaScript -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Diálogo de edição de produto -->
+    <div id="editProductModal" class="modal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalActionText">Editar Produto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+          </div>
+          <div class="modal-body">
+            <form id="editProductForm">
+              <div class="mb-3">
+                <label for="editNome" class="form-label">Item</label>
+                <input type="text" class="form-control p-3" id="editNome" placeholder="Ex: Memória RAM" required>
+              </div>
+              <div class="row mb-3">
+                <div class="col-6">
+                  <label for="editCategoria" class="form-label">Categoria</label>
+                  <select class="form-select p-3" id="editCategoria" required>
+                    <option value="Vestuário">Vestuário</option>
+                    <option value="Eletrônicos">Eletrônicos</option>
+                    <option value="Jogos">Jogos</option>
+                  </select>
+                </div>
+                <div class="col-6">
+                  <label for="editOrigem" class="form-label">Origem</label>
+                  <select class="form-select p-3" id="editOrigem" required>
+                    <option value="Netshoes">Netshoes</option>
+                    <option value="Kabum">Kabum</option>
+                    <option value="Steam">Steam</option>
+                  </select>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="editValor" class="form-label">URL</label>
+                <input type="text" class="form-control p-3" id="editUrl" placeholder="Ex: http://mercadolivre.com.br/memoria-ram" required>
+              </div>
+              <div class="mb-3">
+                <label for="editValor" class="form-label">Valor (R$)</label>
+                <input type="text" class="form-control p-3" id="editValor" placeholder="Ex: 400,00" required>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger d-flex align-items-center" data-bs-dismiss="modal">
+              <i class="fa fa-cancel me-2"></i>
+              Cancelar
+            </button>
+            <button type="button" class="btn btn-primary d-flex align-items-center" id="saveEditButton">
+              <i class="fa fa-save me-2"></i>
+              Salvar
+            </button>
           </div>
         </div>
       </div>
     </div>
     <script src="vendor/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/libs/jquery.inputmask.min.js"></script>
   </body>
 </html>
