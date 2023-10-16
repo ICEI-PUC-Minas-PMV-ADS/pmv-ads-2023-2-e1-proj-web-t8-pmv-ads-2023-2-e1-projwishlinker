@@ -74,7 +74,7 @@ function preencherTabela(produtos) {
 
   $(".editar-produto").click(function () {
       $("#modalActionText").text("Editar Produto");
-      
+
       const produtoId = $(this).data("produto-id");
       const produtoEditando = produtos.find((produto) => produto.id === produtoId);
       $("#editCategoria").val(produtoEditando.categoria);
@@ -203,6 +203,7 @@ $(document).ready(function () {
   }
 });
 
+//TODO: deixar botão salvar desativado até que todos os campos required sejam preenchidos
 
 //array que estou utilizando para testar o código
 // [
