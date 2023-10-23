@@ -254,7 +254,7 @@ h2 {
   padding: 20px;
   gap: 20px;
   border-radius: 25px;
-  margin: 10px 0;
+  margin: 10px 10px;
 }
 .notifications-card-new {
   background-color: #e9eef1;
@@ -286,15 +286,35 @@ h2 {
   border: 1px solid #cfcfe7;
   margin-top: 10px;
   padding: 20px;
-  border-radius: 5px;
 }
 .notifications-image {
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.notifications-image:hover{
+  transform: scale(1.3);
+  cursor: pointer;
 }
 .notifications-info {
   flex: 1;
 }
+.notifications-card-new:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.spam:hover{
+  transform: scale(1.01);
+  cursor: pointer;
+}
+.notifications-message:hover{
+  transform: scale(0.95);
+  cursor: pointer;
+}
+#lidas {
+  background-color: transparent;
+}
+
 @media (min-width: 700px) {
   html body {
   background-color: #f1f1f1;
