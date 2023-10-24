@@ -37,7 +37,7 @@ function loadInitialData() {
       },
       {
           "id": 6,
-          "categoria": "Jogos",
+          "categoria": "Games",
           "nome": "Cyberpunk 2077",
           "valor": "199,90",
           "origem": "Steam",
@@ -75,7 +75,7 @@ function loadInitialData() {
       },
       {
         "id": 3,
-        "categoria": "Jogos",
+        "categoria": "Games",
         "nome": "Starfield",
         "valor": "299,00",
         "origem": "Steam",
