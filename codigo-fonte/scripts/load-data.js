@@ -115,7 +115,7 @@ function loadInitialData() {
       { categoria: "Ferramentas", icone: "fas fa-tools" },
       { categoria: "Filmes e Séries", icone: "fas fa-film" },
       { categoria: "Flores e Jardim", icone: "fas fa-leaf" },
-      { categoria: "Jogos", icone: "fas fa-gamepad" },
+      { categoria: "Games", icone: "fas fa-gamepad" },
       { categoria: "Informática", icone: "fas fa-desktop" },
       { categoria: "Instrumentos Musicais", icone: "fas fa-music" },
       { categoria: "Livros", icone: "fas fa-book" },
