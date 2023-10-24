@@ -89,6 +89,57 @@ function loadInitialData() {
     localStorage.setItem("quarentenaDeCompras", JSON.stringify(produtosQuarentenaDeCompras));
   }
 
+  if(!localStorage.getItem("iconesCategorias")){
+    const icones = [
+      { categoria: "Ar e Ventilação", icone: "fas fa-fan" },
+      { categoria: "Artesanato", icone: "fas fa-paint-brush" },
+      { categoria: "Artigos para Festas", icone: "fas fa-birthday-cake" },
+      { categoria: "Áudio", icone: "fas fa-volume-up" },
+      { categoria: "Automotivo", icone: "fas fa-car" },
+      { categoria: "Bebê", icone: "fas fa-baby" },
+      { categoria: "Beleza & Perfumaria", icone: "fas fa-perfume" },
+      { categoria: "Bem-estar Sexual", icone: "fas fa-venus-mars" },
+      { categoria: "Brinquedos", icone: "fas fa-child" },
+      { categoria: "Cama, Mesa e Banho", icone: "fas fa-bed" },
+      { categoria: "Câmeras e Drones", icone: "fas fa-camera" },
+      { categoria: "Casa e Construção", icone: "fas fa-home" },
+      { categoria: "Casa Inteligente", icone: "fas fa-robot" },
+      { categoria: "Celulares e Smartphones", icone: "fas fa-mobile-alt" },
+      { categoria: "Colchões", icone: "fas fa-bed" },
+      { categoria: "Comércio e Indústria", icone: "fas fa-industry" },
+      { categoria: "Cursos", icone: "fas fa-graduation-cap" },
+      { categoria: "Decoração", icone: "fas fa-home" },
+      { categoria: "Eletrodomésticos", icone: "fas fa-tv" },
+      { categoria: "Eletrônicos", icone: "fas fa-laptop" },
+      { categoria: "Esporte e Lazer", icone: "fas fa-futbol" },
+      { categoria: "Ferramentas", icone: "fas fa-tools" },
+      { categoria: "Filmes e Séries", icone: "fas fa-film" },
+      { categoria: "Flores e Jardim", icone: "fas fa-leaf" },
+      { categoria: "Jogos", icone: "fas fa-gamepad" },
+      { categoria: "Informática", icone: "fas fa-desktop" },
+      { categoria: "Instrumentos Musicais", icone: "fas fa-music" },
+      { categoria: "Livros", icone: "fas fa-book" },
+      { categoria: "Mercado", icone: "fas fa-shopping-cart" },
+      { categoria: "Moda", icone: "fas fa-tshirt" },
+      { categoria: "Móveis", icone: "fas fa-couch" },
+      { categoria: "Música e Shows", icone: "fas fa-music" },
+      { categoria: "Natal", icone: "fas fa-tree" },
+      { categoria: "Papelaria", icone: "fas fa-pen" },
+      { categoria: "Pet Shop", icone: "fas fa-paw" },
+      { categoria: "Religião e Espiritualidade", icone: "fas fa-praying-hands" },
+      { categoria: "Relógios", icone: "fas fa-clock" },
+      { categoria: "Saúde e Cuidados Pessoais", icone: "fas fa-heart" },
+      { categoria: "Serviços", icone: "fas fa-cogs" },
+      { categoria: "Suplementos Alimentares", icone: "fas fa-apple-alt" },
+      { categoria: "Tablets, iPads e E-Reader", icone: "fas fa-tablet-alt" },
+      { categoria: "Telefonia Fixa", icone: "fas fa-phone" },
+      { categoria: "TV e Vídeo", icone: "fas fa-tv" },
+      { categoria: "Utilidades Domésticas", icone: "fas fa-home" },
+      { categoria: "Vestuário", icone: "fas fa-tshirt" },
+    ];
+
+    localStorage.setItem("iconesCategorias", JSON.stringify(icones));
+  }
 }
 
 loadInitialData();

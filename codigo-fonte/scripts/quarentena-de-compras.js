@@ -45,7 +45,7 @@ function preencherTabela(produtos) {
       cell7.classList.add("p-4");
       cell8.classList.add("rounded-end-3", "p-4", "text-end");
 
-      cell1.innerHTML = `<i class="fa-solid fa-shirt fs-4 ms-2"></i>`;
+      cell1.innerHTML = `<i class="fa-solid `+ produto.icone +` fs-4 ms-2"></i>`;
       cell2.textContent = produto.categoria;
       cell3.textContent = produto.nome;
       cell4.textContent = `R$ ${produto.valor}`;
@@ -182,25 +182,68 @@ function exibirMensagemVazia() {
   tabela.html(`<tr><td colspan="8" class="text-center">Você ainda não possui nenhum produto cadastrado.</td></tr>`);
 }
 
-$(document).ready(function () {
-  $('#editValor').inputmask('currency', { alias: 'numeric', rightAlign: false, radixPoint: ',', digits: 2 });
-  $('#editFimQuarentena').inputmask('99/99/9999');
+function associaCategoriaProdutoIcone(produtos, icones) {
 
-  if (localStorage.getItem("quarentenaDeCompras")) {
-      const produtos = JSON.parse(localStorage.getItem("quarentenaDeCompras"));
-      let nextItemId = 1;
-      if (produtos.length > 0) {
-          const maxId = Math.max(...produtos.map((produto) => produto.id));
-          nextItemId = maxId + 1;
-      }
-      if (produtos.length > 0) {
-          preencherTabela(produtos);
-      } else {
-          exibirMensagemVazia();
-      }
-  } else {
-      exibirMensagemVazia();
-  }
-});
+    const resultado = produtos.map(elemento1 => {
+        const elemento2 = icones.find(elemento => elemento.categoria === elemento1.categoria);
+
+        if (elemento2) {
+            return {
+                adquirido: elemento1.adquirido,
+                categoria: elemento1.categoria,
+                dataCadastro: elemento1.dataCadastro,
+                fimQuarentena: elemento1.fimQuarentena,
+                id: elemento1.id,
+                nome: elemento1.nome,
+                origem: elemento1.origem,
+                url: elemento1.url,
+                valor: elemento1.valor,
+                icone: elemento2.icone,
+            };
+        }
+
+        return {
+            adquirido: elemento1.adquirido,
+            categoria: elemento1.categoria,
+            dataCadastro: elemento1.dataCadastro,
+            fimQuarentena: elemento1.fimQuarentena,
+            id: elemento1.id,
+            nome: elemento1.nome,
+            origem: elemento1.origem,
+            url: elemento1.url,
+            valor: elemento1.valor,
+            icone: null,
+        };
+    });
+    return resultado;
+    }
+
+    $(document).ready(function () {
+        $('#editValor').inputmask('currency', { alias: 'numeric', rightAlign: false, radixPoint: ',', digits: 2 });
+        $('#editFimQuarentena').inputmask('99/99/9999');
+      
+        if (localStorage.getItem("quarentenaDeCompras")) {
+            const produtos = JSON.parse(localStorage.getItem("quarentenaDeCompras"));
+      
+            if (localStorage.getItem("iconesCategorias")) {
+              const icones = JSON.parse(localStorage.getItem("iconesCategorias"));
+      
+              const produtosIconeCategoria = associaCategoriaProdutoIcone(produtos, icones)
+      
+              let nextItemId = 1;
+              if (produtosIconeCategoria.length > 0) {
+                  const maxId = Math.max(...produtosIconeCategoria.map((produto) => produto.id));
+                  nextItemId = maxId + 1;
+              }
+              if (produtosIconeCategoria.length > 0) {
+                  preencherTabela(produtosIconeCategoria);
+              } else {
+                  exibirMensagemVazia();
+              }
+          }
+        } else {
+            exibirMensagemVazia();
+        }
+      });
 
 //TODO: deixar botão salvar desativado até que todos os campos required sejam preenchidos
