@@ -59,6 +59,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 <hr>
   
+<h3><b>Logotipo</b></h3>
 <p>Para a criação do logotipo da aplicação, foi utilizada a aplicação LOGO (logo.com), com as cores Azul (#3742FA) e Branco (#FFFFFF). A utilização da cor azul está ligada segurança e profissionalismo, de acordo com a [BrandingCompass.](https://brandingcompass.com/branding/color-theory-blue-as-a-branding-color/). O elemento de coração foi utilizado por ser o principal símbolo de listas de desejos.</p>
 <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/82ea29be-431f-4762-8d67-dec24c285a71">
 
@@ -75,3 +76,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/c9c943bf-a299-410a-9f32-8bf39e428f83">
     <figcaption>Figura 6 - Logotipo da aplicação WishLinker variação 2 - ALTERNATIVA
 </figure>
+
+<hr>
+
+<p>Para a iconografia, utilizamos a biblioteca [FontAwesome](https://fontawesome.com/), utilizando ícones específicos para as funcionalidades (Início, Lista de Desejos, Quarentena de Compras e Sair), ações do usuário (Visualizar, Editar e Remover) e também para cada categoria de produto cadastrada na aplicação.</p>
