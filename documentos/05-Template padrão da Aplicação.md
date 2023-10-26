@@ -61,20 +61,24 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
   
 <h3><b>Logotipo</b></h3>
 <p>Para a criação do logotipo da aplicação, foi utilizada a aplicação LOGO (logo.com), com as cores Azul (#3742FA) e Branco (#FFFFFF). A utilização da cor azul está ligada segurança e profissionalismo, de acordo com a [BrandingCompass.](https://brandingcompass.com/branding/color-theory-blue-as-a-branding-color/). O elemento de coração foi utilizado por ser o principal símbolo de listas de desejos.</p>
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/82ea29be-431f-4762-8d67-dec24c285a71">
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/82ea29be-431f-4762-8d67-dec24c285a71">
+    <figcaption>Figura 5 - Design da logo WishLinker na no site LOGO.com
+</figure>
 
 <hr>
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/d5a93460-2a7b-42f1-8465-31076bb6b0df">
-    <figcaption>Figura 5 - Logotipo da aplicação WishLinker variação 1 - PRINCIPAL
+    <figcaption>Figura 6 - Logotipo da aplicação WishLinker variação 1 - PRINCIPAL
 </figure>
 
 <hr>
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/c9c943bf-a299-410a-9f32-8bf39e428f83">
-    <figcaption>Figura 6 - Logotipo da aplicação WishLinker variação 2 - ALTERNATIVA
+    <figcaption>Figura 7 - Logotipo da aplicação WishLinker variação 2 - ALTERNATIVA
 </figure>
 
 <hr>
