@@ -24,8 +24,9 @@ Para organizar e distribuir as tarefas do projeto, estamos utilizando o Trello, 
 - **Impedimento:** Utilizamos esta lista para rastrear quaisquer problemas ou impedimentos que surjam durante o projeto.
 
 Nosso kanban está disponível através do link https://trello.com/b/OXFVcNZu/wishlinker e é apresentado em seu estado atual como na figura abaixo:
+
 <figure> 
-  <img width="1434" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/7fd694f2-063d-41f8-9165-ecca442d126b">
+  <img width="1434" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/e993cebc-4381-4b0c-ac29-d75d164afd4f">
 <figcaption>Figura 1 - Quadro kanban de gestão ágil</figcaption>
 </figure>
 
@@ -52,7 +53,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | User Flow                           | Figma                              | https://www.figma.com/file/T3el0CrU3H2x7xXUMJvpeP/User-Flow---Wishlinker?type=whiteboard&node-id=0-1&t=gBDDuv5wkUzPLoHa-0 |
 | Projeto de Interface                | tldraw                             | https://www.tldraw.com/r/pbEtfipHKyswZwyKtz_o0?viewport=150%2C-68%2C1792%2C978&page=page%3AofvUITDb5Fjtw52TOednZ |
 | Gerenciamento do Projeto            | Trello                             | https://trello.com/b/OXFVcNZu/wishlinker  |
-| Hospedagem                          | GitHub Pages                       | Não iniciado                            |
+| Hospedagem                          | GitHub Pages                       | https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/codigo-fonte/login.html  |
 
 | AMBIENTE                    | PLATAFORMA | LINK DE ACESSO                                              |
 |-----------------------------|------------|-------------------------------------------------------------|
