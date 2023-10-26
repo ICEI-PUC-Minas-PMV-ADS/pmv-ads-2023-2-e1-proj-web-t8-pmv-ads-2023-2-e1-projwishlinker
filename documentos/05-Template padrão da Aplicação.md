@@ -23,6 +23,8 @@ As páginas terão como elementos padrões o menu de navegação lateral e o con
 
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/tree/main/codigo-fonte">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/tree/main/documentos/img">aqui</a>.
 
+<hr>
+
 <h3><b>Tela de Login</b></h3>
 <p>Formulário com entrada de dados de Usuário e Senha.</p>
 <figure> 
