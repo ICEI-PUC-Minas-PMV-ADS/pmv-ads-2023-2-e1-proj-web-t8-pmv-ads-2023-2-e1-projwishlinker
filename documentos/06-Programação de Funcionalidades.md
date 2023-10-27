@@ -24,16 +24,16 @@ RF-001: A plataforma deve permitir que os usuários cadastrem produtos em suas l
 
 lista-de-desejos.html
 
-●lista-de-desejos.js
+● lista-de-desejos.js
 
-●load-data.js
+● load-data.js
 
-●style.css
+● style.css
 
 
 #### Estrutura de Dados
 
-●[lista-de-desejos.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/lista-de-desejos.html)
+● [lista-de-desejos.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/lista-de-desejos.html)
 
 
 #### Instruções de acesso
@@ -68,14 +68,14 @@ RF-002: Os usuários devem ser capazes de visualizar as informações completas 
 
 lista-de-desejos.html
 
-●lista-de-desejos.js
+● lista-de-desejos.js
 
-●style.css
+● style.css
 
 
 #### Estrutura de Dados
 
-●	[lista-de-desejos.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/lista-de-desejos.html)
+● 	[lista-de-desejos.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/lista-de-desejos.html)
 
 
 #### Instruções de acesso
@@ -127,16 +127,16 @@ RF-004: Os usuários devem ser capazes de adicionar produtos à lista de quarent
 
 quarentena-de-compras.html
 
-●quarentena-de-compras.js
+● quarentena-de-compras.js
 
-●load-data.js
+● load-data.js
 
-●style.css
+● style.css
 
 
 #### Estrutura de Dados
 
-●[quarentena-de-compras.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/quarentena-de-compras.html)
+● [quarentena-de-compras.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/quarentena-de-compras.html)
 
 
 #### Instruções de acesso
@@ -170,17 +170,17 @@ RF-005	A plataforma deve permitir que os usuários removam produtos tanto de sua
 
 lista-de-desejos.html
 
-●lista-de-desejos.js
+● lista-de-desejos.js
 
 quarentena-de-compras.html
 
-●quarentena-de-compras.js
+● quarentena-de-compras.js
 
 #### Estrutura de Dados
 
-●[lista-de-desejos.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/scripts/lista-de-desejos.js)
+● [lista-de-desejos.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/scripts/lista-de-desejos.js)
 
-●[quarentena-de-compras.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/scripts/quarentena-de-compras.js)
+● [quarentena-de-compras.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/scripts/quarentena-de-compras.js)
 
 
 #### Instruções de acesso
@@ -215,15 +215,15 @@ Exemplo da tela de Início (Dashboard):
 
 #### Artefatos da funcionalidade
 
-●	dashboard.html 
+● 	dashboard.html 
 
-●	style.css
+● 	style.css
 
-●	dashboard.js
+● 	dashboard.js
 
 #### Estrutura de Dados
 
-●[dashboard.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/quarentena-de-compras.html)
+● [dashboard.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/blob/main/codigo-fonte/quarentena-de-compras.html)
 
 
 #### Instruções de acesso
