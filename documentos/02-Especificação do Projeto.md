@@ -96,14 +96,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-01| A plataforma deve permitir que os usuários cadastrem produtos em suas wishlists, fornecendo detalhes como nome do produto, categoria, preço e site onde está listado.   | ALTA | 
-|RF-02| Os usuários devem ser capazes de visualizar as informações completas sobre cada produto em suas wishlists, incluindo detalhes como nome, categoria, preço e site de origem.   | ALTA | 
+|RF-02| Os usuários devem ser capazes de visualizar as informações completas sobre cada produto em sua Lista de desejos e Quarentena de compras, incluindo detalhes como nome, categoria, preço e site de origem.   | ALTA | 
 |RF-03| A plataforma deve oferecer funcionalidade de filtro/pesquisa para permitir que os usuários localizem produtos em suas wishlists com base em categorias, sites de origem ou outras informações relevantes.    | BAIXA |
 |RF-04| Os usuários devem ser capazes de adicionar produtos à lista de quarentena pré-compra, fornecendo detalhes como nome, categoria, preço e período de reflexão.  | ALTA |
-|RF-05| Os usuários devem ser capazes de adicionar produtos à lista de quarentena pré-compra, fornecendo detalhes como nome, categoria, preço e período de reflexão.   | ALTA |
-|RF-06| A plataforma deve permitir que os usuários removam produtos tanto de suas wishlists quanto da lista de quarentena pré-compra, caso mudem de ideia ou decidam não prosseguir com a aquisição.    | ALTA |
-|RF-07| Os usuários devem receber notificações ou alertas quando o período de reflexão de um produto em sua lista de quarentena estiver próximo do fim, para que possam tomar uma decisão de compra informada.    | BAIXA |
-|RF-08| A plataforma deve possibilitar que os usuários marquem produtos como "já adquiridos" tanto em suas wishlists quanto na lista de quarentena pré-compra, para facilitar o acompanhamento de suas escolhas.   | MÉDIA |
-|RF-09| Os usuários devem ter a opção de ordenar os produtos em suas wishlists e na lista de quarentena pré-compra de acordo com critérios como nome, preço ou categoria, a fim de organizar suas preferências de maneira conveniente. | BAIXA |
+|RF-05| A plataforma deve permitir que os usuários removam produtos tanto de sua Lista de desejos quanto da Quarentena de compras, caso mudem de ideia ou decidam não prosseguir com a aquisição.    | ALTA |
+|RF-06| Os usuários devem receber notificações ou alertas quando o período de reflexão de um produto em sua lista de quarentena estiver próximo do fim, para que possam tomar uma decisão de compra informada.    | BAIXA |
+|RF-07| Os usuários devem ter a opção de ordenar os produtos em suas wishlists e na lista de quarentena pré-compra de acordo com critérios como nome, preço ou categoria, a fim de organizar suas preferências de maneira conveniente. | BAIXA |
 
 
 **Prioridade: Alta / Média / Baixa.  
