@@ -19,9 +19,7 @@ O objetivo geral deste projeto é oferecer aos consumidores uma plataforma de ce
    
 ## Justificativa
 
-O projeto proposto é de grande relevância, tendo em vista o aumento constante do comércio eletrônico no Brasil e as alterações no hábitos dos consumidores devido à pandemia e à necessidade de distanciamento social. Ele responde a uma necessidade real dos consumidores de gerenciar promocões e ofertas na vastidão de informações online, através de uma abordagem que centraliza *wishlists* em uma plataforma unificada, permitindo que os usuários monitorem produtos de interesse e recebam alertas sobre promoções. 
-
-A centralização proposta pelo prjeto apresenta uma solução eficaz para o rastreamento de ofertas, gerando impactos sociais positivos decisões de compra conscientes, minimizando aquisições impulsivas e consumo desnecessários.
+O grande crescimento do comércio eletrônico evidencia a necessidade de uma ferramenta que centralize essas listas de desejos e promova decisões de compra mais conscientes, evitando gastos desnecessários e garantindo melhores oportunidades de adquirir produtos desejados em promoção ou de estoque limitado. O projeto, portanto, almeja suprir essa demanda crescente, proporcionando ao consumidor um controle mais efetivo sobre seus desejos e compras no vasto universo do *e-commerce*.
 
 ## Público-Alvo
 
