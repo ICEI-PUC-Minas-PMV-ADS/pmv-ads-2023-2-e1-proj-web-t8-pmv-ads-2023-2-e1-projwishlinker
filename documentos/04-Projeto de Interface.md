@@ -3,17 +3,29 @@
 
 ## User Flow
 
-O fluxo do usuário apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo, acesse o ambiente tldraw do projeto através <a target="_blank" href="https://www.tldraw.com/r/pbEtfipHKyswZwyKtz_o0?viewport=156%2C-30%2C1792%2C978&page=page%3AofvUITDb5Fjtw52TOednZ">deste link</a>.
+O fluxo do usuário apresentado nas figuras 1, 2 e 3 mostram o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo, acesse o ambiente tldraw do projeto através <a target="_blank" href="https://www.tldraw.com/r/pbEtfipHKyswZwyKtz_o0?viewport=156%2C-30%2C1792%2C978&page=page%3AofvUITDb5Fjtw52TOednZ">deste link</a>.
 
-<img width="1206" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/c6d6c553-9c68-4487-b0c5-144006d9cd2f">
+<img width="1206" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/c817ae43-dcc0-4790-afed-e4895760fea4">
 <figure> 
-    <figcaption>Figura 1 - Fluxo de telas do usuário
-</figure> 
+    <figcaption>Figura 1 - Tela de Login e Dashboard inicial
+</figure>
+<hr>
 
 
+<img width="1206" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/4ffb3731-18c3-4acd-8e5d-c41f240c0ee7">
+<figure> 
+    <figcaption>Figura 2 - Listagem de itens cadastrados
+</figure>
+<hr>
+
+<img width="1206" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/3bdac526-6584-4a24-8498-86441297e49b">
+<figure> 
+    <figcaption>Figura 3 - Criação e exclusão de novos items
+</figure>
+        
 ## Protótipo
 
-As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 2 blocos, descritos a seguir. São eles:
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 4. Nesta estrutura existem 2 blocos, descritos a seguir. São eles:
 <ul>
   <li>Menu lateral - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
   <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
@@ -21,7 +33,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
 <figure> 
   <img width="1427" alt="image" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/3586967/675e83c9-9166-4604-bdb3-491cda53a78b">
-    <figcaption>Figura 2 - Estrutura padrão do site
+    <figcaption>Figura 4 - Estrutura padrão do site
 </figure> 
 <hr>
 
