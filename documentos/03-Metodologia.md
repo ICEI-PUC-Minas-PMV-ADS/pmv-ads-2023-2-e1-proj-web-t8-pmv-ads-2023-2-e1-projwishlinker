@@ -10,7 +10,7 @@ Nossa equipe está estruturada da seguinte forma:
 
 - Scrum Master: Rodolfo Iannazzo Querino da Silva
 - Product Owner: Thiago Pires Alves de Castro
-- Equipe de Desenvolvimento: Gabriela Almeida dos Reis, Gustavo Vinicius Maciel, Jozimar Aparecido de Jesus Santos, Leonidas Felipe Soares Oliveira, Thiago Pires Alves de Castro
+- Equipe de Desenvolvimento: Gabriela Almeida dos Reis, Gustavo Vinicius Maciel, Jozimar Aparecido de Jesus Santos, Leonidas Felipe Soares Oliveira, Rodolfo Iannazzo Querino da Silva, Thiago Pires Alves de Castro
 - Design: Thiago Pires Alves de Castro
 
 ### Processo
