@@ -43,7 +43,7 @@ function preencherTabela(produtos) {
       cell5.classList.add("p-4", "fw-light");
       cell6.classList.add("p-4", "fw-light");
       cell7.classList.add("p-4");
-      cell8.classList.add("rounded-end-3", "p-4", "text-end");
+      cell8.classList.add("rounded-end-3", "p-4", "text-last-justify");
 
       cell1.innerHTML = `<i class="fa-solid `+ produto.icone +` fs-4 ms-2"></i>`;
       cell2.textContent = produto.categoria;
@@ -58,8 +58,8 @@ function preencherTabela(produtos) {
       cell6.textContent = dataFormatada;
       cell7.innerHTML = estadoDoProduto;
       cell8.innerHTML = `
-          <i class="fa fa-eye verde-claro-2 pe-4 fs-4 cursor-pointer" onclick="abrirSiteProduto('${produto.url}')"></i>
-          <i class="fa fa-pencil amarelo-claro pe-4 fs-4 editar-produto cursor-pointer "
+          <i class="p-2 fa fa-eye verde-claro-2 pe-4 fs-4 cursor-pointer" onclick="abrirSiteProduto('${produto.url}')"></i>
+          <i class="p-2 fa fa-pencil amarelo-claro pe-4 fs-4 editar-produto cursor-pointer "
               data-produto-id="${produto.id}"
               data-produto-categoria="${produto.categoria}"
               data-produto-nome="${produto.nome}"
@@ -68,7 +68,7 @@ function preencherTabela(produtos) {
               data-produto-origem="${produto.origem}"
               data-produto-fimquarentena="${produto.fimQuarentena}"
               data-produto-adquirido="${produto.adquirido}"></i>
-          <i class="fa fa-trash vermelho me-3 fs-4 cursor-pointer" onclick="confirmarExclusao(${produto.id}, preencherTabela)"></i>
+          <i class="p-2 fa fa-trash vermelho me-3 fs-4 cursor-pointer" onclick="confirmarExclusao(${produto.id}, preencherTabela)"></i>
       `;
   });
 
