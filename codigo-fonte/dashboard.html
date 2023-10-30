@@ -68,65 +68,95 @@
         </nav>
         <!-- Page content-->
         <div class="container-fluid p-4">
-          <div class="d-flex justify-content-between align-items-center">
+          <div class="row mt-2 g-3">
+            <div class="col-md-3">
+              <div class="card border-1 rounded-4 bg-azul-claro-1 h-100 border-azul-claro-2">
+                <div class="card-body p-0">
+                  <div class="d-grid ps-3">
+                    <i class="fa-regular fa-heart py-3 azul-claro-2" style="font-size: 60px;"></i>
+                    <label class="fs-6 text-muted">Lista de desejos</label>
+                  </div>
+                </div>
+                <div class="card-footer border-0 rounded-4 bg-azul-claro-1">
+                  <div class="text-end fs-1 text-bold pe-2 pb-2">2</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card border-1 rounded-4 bg-verde-claro-1 h-100 border-verde-claro-2">
+                <div class="card-body p-0">
+                  <div class="d-grid ps-2">
+                    <i class="las la-shopping-cart py-1 verde-claro-2" style="font-size: 80px;"></i>
+                    <label class="fs-6 text-muted ps-2">Quarentena de compras</label>
+                  </div>
+                </div>
+                <div class="card-footer border-0 rounded-4 bg-verde-claro-1">
+                  <div class="text-end fs-1 text-bold pe-2 pb-2">3</div>
+                </div>
+              </div>
+            </div>            
+          </div>
+          
+          <div class="row mt-5">
             <h3 class="text-bold" aria-label="Lista de desejos">Notificações</h3>
+            <div>
+              <div class="notifications-card notifications-card-new">
+                <img class="notifications-thumb" src="assets/netshoes.png">
+                <div class="notifications-info w-100">
+                  <div class="notifications-texto">
+                    <samp class="notifications-nome"> Netshoes </samp> Tênis Nike Air Max Impact 4 <b> Está na minha lista de favoritos! </b>
+                  </div>
+                  <div class="notifications-time">14:20</div>
+                </div>
+                <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
+                  <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
+                </button>
+              </div>
+              <div class="notifications-card notifications-card-new">
+                <img class="notifications-thumb" src="assets/Kabum.png">
+                <div class="notifications-info w-100">
+                  <div class="notifications-texto">
+                    <samp class="notifications-nome"> Kabum </samp> Placa Mãe Gigabyte B760M AORUS ELITE.
+                  </div>
+                  <div class="notifications-time">10:05</div>
+                </div>
+                <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
+                  <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
+                </button>
+              </div>
+              <div class="notifications-card notifications-card-new">
+                <img class="notifications-thumb" src="assets/steam.png">
+                <div class="notifications-info w-100">
+                  <div class="notifications-texto">
+                    <samp class="notifications-nome"> Steam </samp> Cyberpunk 2077 <b class="primary"> Meu jogo favorito. </b>
+                  </div>
+                  <div class="notifications-time">9:45</div>
+                </div>
+                <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
+                  <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
+                </button>
+              </div>
+              <div class="notifications-card notifications-card-new lida">
+                <img class="notifications-thumb" src="assets/MecLivre.png">
+                <div class="notifications-info w-100">
+                  <div class="notifications-texto">
+                    <samp class="notifications-nome"> Mercado Livre </samp> Cadeira Gamer Pctop Racer 1006 gamer ergonômica preta e azul com estofado de couro sintético.
+                  </div>
+                  <div class="notifications-time">19/10/2023</div>
+                </div>
+              </div>
+              <div class="notifications-card notifications-card-new lida">
+                <img class="notifications-thumb" src="assets/pichau.png">
+                <div class="notifications-info w-100">
+                  <div class="notifications-texto">
+                    <samp class="notifications-nome"> Pichau </samp> PLACA MAE ASROCK B650E STEEL LEGEND WIFI, DDR5, SOCKET AM5, ATX, CHIPSET AMD B650, B650E-STEEL-LEGEND-WIFI.
+                  </div>
+                  <div class="notifications-time">18/10/2023</div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div>
-            <div class="notifications-card notifications-card-new">
-              <img class="notifications-bell" src="assets/netshoes.png">
-              <div class="notifications-info w-100">
-                <div class="notifications-texto">
-                  <samp class="notifications-nome"> Netshoes </samp> Tênis Nike Air Max Impact 4 <b> Está na minha lista de favoritos! </b>
-                </div>
-                <div class="notifications-time">14:20</div>
-              </div>
-              <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
-                <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
-              </button>
-            </div>
-            <div class="notifications-card notifications-card-new">
-              <img class="notifications-bell" src="assets/Kabum.png">
-              <div class="notifications-info w-100">
-                <div class="notifications-texto">
-                  <samp class="notifications-nome"> Kabum </samp> Placa Mãe Gigabyte B760M AORUS ELITE.
-                </div>
-                <div class="notifications-time">10:05</div>
-              </div>
-              <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
-                <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
-              </button>
-            </div>
-            <div class="notifications-card notifications-card-new">
-              <img class="notifications-bell" src="assets/steam.png">
-              <div class="notifications-info w-100">
-                <div class="notifications-texto">
-                  <samp class="notifications-nome"> Steam </samp> Cyberpunk 2077 <b class="primary"> Meu jogo favorito. </b>
-                </div>
-                <div class="notifications-time">9:45</div>
-              </div>
-              <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
-                <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
-              </button>
-            </div>
-            <div class="notifications-card notifications-card-new lida">
-              <img class="notifications-bell" src="assets/MecLivre.png">
-              <div class="notifications-info w-100">
-                <div class="notifications-texto">
-                  <samp class="notifications-nome"> Mercado Livre </samp> Cadeira Gamer Pctop Racer 1006 gamer ergonômica preta e azul com estofado de couro sintético.
-                </div>
-                <div class="notifications-time">19/10/2023</div>
-              </div>
-            </div>
-            <div class="notifications-card notifications-card-new lida">
-              <img class="notifications-bell" src="assets/pichau.png">
-              <div class="notifications-info w-100">
-                <div class="notifications-texto">
-                  <samp class="notifications-nome"> Pichau </samp> PLACA MAE ASROCK B650E STEEL LEGEND WIFI, DDR5, SOCKET AM5, ATX, CHIPSET AMD B650, B650E-STEEL-LEGEND-WIFI.
-                </div>
-                <div class="notifications-time">18/10/2023</div>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
