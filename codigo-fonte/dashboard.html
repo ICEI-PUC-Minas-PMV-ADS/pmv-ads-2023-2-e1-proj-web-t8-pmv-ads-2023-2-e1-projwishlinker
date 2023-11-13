@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WishLinker</title>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
-    <link href="vendor/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
-    <link rel="manifest" href="favicon.ico/site.webmanifest">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css"
+    />
+    <link
+      href="vendor/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon.ico/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon.ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon.ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon.ico/site.webmanifest" />
     <script src="vendor/jquery-3.6.0/jquery-3.6.0.min.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/dashboard.js"></script>
@@ -22,7 +45,12 @@
       <div class="border-end bg-azul" id="sidebar-wrapper">
         <div class="sidebar-heading">
           <div class="d-flex justify-content-center align-items-center">
-            <img src="assets/wishlinker-high-resolution-logo-color-on-transparent-background.png" alt="Logo WishLinker" class="logo-img" aria-label="Logo WishLinker">
+            <img
+              src="assets/wishlinker-high-resolution-logo-color-on-transparent-background.png"
+              alt="Logo WishLinker"
+              class="logo-img"
+              aria-label="Logo WishLinker"
+            />
           </div>
           <div class="d-flex flex-column align-items-center my-5">
             <div class="initials"></div>
@@ -30,27 +58,45 @@
           </div>
         </div>
         <div class="list-group list-group-flush">
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="dashboard.html" aria-label="Ir para o Início">
+          <a
+            class="list-group-item bg-azul mx-3 p-3 border-0"
+            href="dashboard.html"
+            aria-label="Ir para o Início"
+          >
             <div class="d-flex align-items-center">
               <i class="las la-home fs-4 ms-1 me-2"></i>
               <div class="mt-1 fs-7">Início</div>
             </div>
           </a>
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="lista-de-desejos.html" aria-label="Ir para Lista de Desejos">
+          <a
+            class="list-group-item bg-azul mx-3 p-3 border-0"
+            href="lista-de-desejos.html"
+            aria-label="Ir para Lista de Desejos"
+          >
             <div class="d-flex align-items-center">
               <i class="fa-regular fa-heart fs-5 ms-1 me-2"></i>
               <div class="fs-7">Lista de desejos</div>
             </div>
           </a>
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="quarentena-de-compras.html" aria-label="Ir para a Quarentena de Compras">
+          <a
+            class="list-group-item bg-azul mx-3 p-3 border-0"
+            href="quarentena-de-compras.html"
+            aria-label="Ir para a Quarentena de Compras"
+          >
             <div class="d-flex align-items-center">
               <i class="las la-shopping-cart fs-3 me-1"></i>
               <div class="mt-1 fs-7">Quarentena de compras</div>
             </div>
           </a>
-          <a class="list-group-item bg-azul mx-3 p-3 border-0" href="#!" aria-label="Sair">
+          <a
+            class="list-group-item bg-azul mx-3 p-3 border-0"
+            href="#!"
+            aria-label="Sair"
+          >
             <div class="d-flex align-items-center">
-              <i class="fa-solid fa-arrow-right-from-bracket fs-6 ms-2 me-2"></i>
+              <i
+                class="fa-solid fa-arrow-right-from-bracket fs-6 ms-2 me-2"
+              ></i>
               <div class="me-1 fs-7">Sair</div>
             </div>
           </a>
@@ -59,9 +105,16 @@
       <!-- Page content wrapper-->
       <div id="page-content-wrapper" class="bg-cinza-claro">
         <!-- Top navigation-->
-        <nav class="navbar navbar-expand-lg bg-branco" aria-label="Navegação Principal">
+        <nav
+          class="navbar navbar-expand-lg bg-branco"
+          aria-label="Navegação Principal"
+        >
           <div class="container-fluid">
-            <button class="btn bg-azul text-white" id="sidebarToggle" aria-label="Alternar Barra Lateral">
+            <button
+              class="btn bg-azul text-white"
+              id="sidebarToggle"
+              aria-label="Alternar Barra Lateral"
+            >
               <i class="fas fa-bars"></i>
             </button>
           </div>
@@ -70,93 +123,136 @@
         <div class="container-fluid p-4">
           <div class="row mt-2 g-3">
             <div class="col-md-3">
-              <div class="card border-1 rounded-4 bg-azul-claro-1 h-100 border-azul-claro-2">
+              <div
+                class="card border-1 rounded-4 bg-azul-claro-1 h-100 border-azul-claro-2"
+              >
                 <div class="card-body p-0">
                   <div class="d-grid ps-3">
-                    <i class="fa-regular fa-heart py-3 azul-claro-2" style="font-size: 60px;"></i>
+                    <i
+                      class="fa-regular fa-heart py-3 azul-claro-2"
+                      style="font-size: 60px"
+                    ></i>
                     <label class="fs-6 text-muted">Lista de desejos</label>
                   </div>
                 </div>
                 <div class="card-footer border-0 rounded-4 bg-azul-claro-1">
-                  <div class="text-end fs-1 text-bold pe-2 pb-2">2</div>
+                  <div
+                    class="text-end fs-1 text-bold pe-2 pb-2"
+                    id="quantidadeListaDesejos"
+                  >
+                    0
+                  </div>
                 </div>
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card border-1 rounded-4 bg-verde-claro-1 h-100 border-verde-claro-2">
+              <div
+                class="card border-1 rounded-4 bg-verde-claro-1 h-100 border-verde-claro-2"
+              >
                 <div class="card-body p-0">
                   <div class="d-grid ps-2">
-                    <i class="las la-shopping-cart py-1 verde-claro-2" style="font-size: 80px;"></i>
-                    <label class="fs-6 text-muted ps-2">Quarentena de compras</label>
+                    <i
+                      class="las la-shopping-cart py-1 verde-claro-2"
+                      style="font-size: 80px"
+                    ></i>
+                    <label class="fs-6 text-muted ps-2"
+                      >Quarentena de compras</label
+                    >
                   </div>
                 </div>
                 <div class="card-footer border-0 rounded-4 bg-verde-claro-1">
-                  <div class="text-end fs-1 text-bold pe-2 pb-2">3</div>
+                  <div
+                    class="text-end fs-1 text-bold pe-2 pb-2"
+                    id="quantidadeQuarentena"
+                  >
+                    0
+                  </div>
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
-          
+
           <div class="row mt-5">
-            <h3 class="text-bold" aria-label="Lista de desejos">Notificações</h3>
+            <h3 class="text-bold" aria-label="Lista de desejos">
+              Notificações
+            </h3>
             <div>
               <div class="notifications-card notifications-card-new">
-                <img class="notifications-thumb" src="assets/netshoes.png">
+                <img class="notifications-thumb" src="assets/netshoes.png" />
                 <div class="notifications-info w-100">
                   <div class="notifications-texto">
-                    <samp class="notifications-nome"> Netshoes </samp> Tênis Nike Air Max Impact 4 <b> Está na minha lista de favoritos! </b>
+                    <samp class="notifications-nome"> Netshoes </samp> Tênis
+                    Nike Air Max Impact 4
+                    <b> Está na minha lista de favoritos! </b>
                   </div>
                   <div class="notifications-time">14:20</div>
                 </div>
-                <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
-                  <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
+                <button
+                  class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75"
+                >
+                  <i
+                    class="fa-solid fa-check text-secondary fs-5 align-self-center"
+                  ></i>
                 </button>
               </div>
               <div class="notifications-card notifications-card-new">
-                <img class="notifications-thumb" src="assets/Kabum.png">
+                <img class="notifications-thumb" src="assets/Kabum.png" />
                 <div class="notifications-info w-100">
                   <div class="notifications-texto">
-                    <samp class="notifications-nome"> Kabum </samp> Placa Mãe Gigabyte B760M AORUS ELITE.
+                    <samp class="notifications-nome"> Kabum </samp> Placa Mãe
+                    Gigabyte B760M AORUS ELITE.
                   </div>
                   <div class="notifications-time">10:05</div>
                 </div>
-                <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
-                  <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
+                <button
+                  class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75"
+                >
+                  <i
+                    class="fa-solid fa-check text-secondary fs-5 align-self-center"
+                  ></i>
                 </button>
               </div>
               <div class="notifications-card notifications-card-new">
-                <img class="notifications-thumb" src="assets/steam.png">
+                <img class="notifications-thumb" src="assets/steam.png" />
                 <div class="notifications-info w-100">
                   <div class="notifications-texto">
-                    <samp class="notifications-nome"> Steam </samp> Cyberpunk 2077 <b class="primary"> Meu jogo favorito. </b>
+                    <samp class="notifications-nome"> Steam </samp> Cyberpunk
+                    2077 <b class="primary"> Meu jogo favorito. </b>
                   </div>
                   <div class="notifications-time">9:45</div>
                 </div>
-                <button class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75">
-                  <i class="fa-solid fa-check text-secondary fs-5 align-self-center"></i>
+                <button
+                  class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75"
+                >
+                  <i
+                    class="fa-solid fa-check text-secondary fs-5 align-self-center"
+                  ></i>
                 </button>
               </div>
               <div class="notifications-card notifications-card-new lida">
-                <img class="notifications-thumb" src="assets/MecLivre.png">
+                <img class="notifications-thumb" src="assets/MecLivre.png" />
                 <div class="notifications-info w-100">
                   <div class="notifications-texto">
-                    <samp class="notifications-nome"> Mercado Livre </samp> Cadeira Gamer Pctop Racer 1006 gamer ergonômica preta e azul com estofado de couro sintético.
+                    <samp class="notifications-nome"> Mercado Livre </samp>
+                    Cadeira Gamer Pctop Racer 1006 gamer ergonômica preta e azul
+                    com estofado de couro sintético.
                   </div>
                   <div class="notifications-time">19/10/2023</div>
                 </div>
               </div>
               <div class="notifications-card notifications-card-new lida">
-                <img class="notifications-thumb" src="assets/pichau.png">
+                <img class="notifications-thumb" src="assets/pichau.png" />
                 <div class="notifications-info w-100">
                   <div class="notifications-texto">
-                    <samp class="notifications-nome"> Pichau </samp> PLACA MAE ASROCK B650E STEEL LEGEND WIFI, DDR5, SOCKET AM5, ATX, CHIPSET AMD B650, B650E-STEEL-LEGEND-WIFI.
+                    <samp class="notifications-nome"> Pichau </samp> PLACA MAE
+                    ASROCK B650E STEEL LEGEND WIFI, DDR5, SOCKET AM5, ATX,
+                    CHIPSET AMD B650, B650E-STEEL-LEGEND-WIFI.
                   </div>
                   <div class="notifications-time">18/10/2023</div>
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
