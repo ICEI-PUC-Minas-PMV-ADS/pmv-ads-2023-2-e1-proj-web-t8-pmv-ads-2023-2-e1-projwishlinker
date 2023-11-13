@@ -38,6 +38,7 @@
     <script src="vendor/jquery-3.6.0/jquery-3.6.0.min.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/dashboard.js"></script>
+    <script src="scripts/notificacoes.js"></script>
   </head>
   <body>
     <div class="d-flex" id="wrapper">
@@ -176,81 +177,8 @@
             <h3 class="text-bold" aria-label="Lista de desejos">
               Notificações
             </h3>
-            <div>
-              <div class="notifications-card notifications-card-new">
-                <img class="notifications-thumb" src="assets/netshoes.png" />
-                <div class="notifications-info w-100">
-                  <div class="notifications-texto">
-                    <samp class="notifications-nome"> Netshoes </samp> Tênis
-                    Nike Air Max Impact 4
-                    <b> Está na minha lista de favoritos! </b>
-                  </div>
-                  <div class="notifications-time">14:20</div>
-                </div>
-                <button
-                  class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75"
-                >
-                  <i
-                    class="fa-solid fa-check text-secondary fs-5 align-self-center"
-                  ></i>
-                </button>
-              </div>
-              <div class="notifications-card notifications-card-new">
-                <img class="notifications-thumb" src="assets/Kabum.png" />
-                <div class="notifications-info w-100">
-                  <div class="notifications-texto">
-                    <samp class="notifications-nome"> Kabum </samp> Placa Mãe
-                    Gigabyte B760M AORUS ELITE.
-                  </div>
-                  <div class="notifications-time">10:05</div>
-                </div>
-                <button
-                  class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75"
-                >
-                  <i
-                    class="fa-solid fa-check text-secondary fs-5 align-self-center"
-                  ></i>
-                </button>
-              </div>
-              <div class="notifications-card notifications-card-new">
-                <img class="notifications-thumb" src="assets/steam.png" />
-                <div class="notifications-info w-100">
-                  <div class="notifications-texto">
-                    <samp class="notifications-nome"> Steam </samp> Cyberpunk
-                    2077 <b class="primary"> Meu jogo favorito. </b>
-                  </div>
-                  <div class="notifications-time">9:45</div>
-                </div>
-                <button
-                  class="btn rounded-5 border-3 border-secondary w-h-50px d-flex opacity-75"
-                >
-                  <i
-                    class="fa-solid fa-check text-secondary fs-5 align-self-center"
-                  ></i>
-                </button>
-              </div>
-              <div class="notifications-card notifications-card-new lida">
-                <img class="notifications-thumb" src="assets/MecLivre.png" />
-                <div class="notifications-info w-100">
-                  <div class="notifications-texto">
-                    <samp class="notifications-nome"> Mercado Livre </samp>
-                    Cadeira Gamer Pctop Racer 1006 gamer ergonômica preta e azul
-                    com estofado de couro sintético.
-                  </div>
-                  <div class="notifications-time">19/10/2023</div>
-                </div>
-              </div>
-              <div class="notifications-card notifications-card-new lida">
-                <img class="notifications-thumb" src="assets/pichau.png" />
-                <div class="notifications-info w-100">
-                  <div class="notifications-texto">
-                    <samp class="notifications-nome"> Pichau </samp> PLACA MAE
-                    ASROCK B650E STEEL LEGEND WIFI, DDR5, SOCKET AM5, ATX,
-                    CHIPSET AMD B650, B650E-STEEL-LEGEND-WIFI.
-                  </div>
-                  <div class="notifications-time">18/10/2023</div>
-                </div>
-              </div>
+            <div class="notifications-container">
+              <!-- Notificações dinâmicas -->
             </div>
           </div>
         </div>
