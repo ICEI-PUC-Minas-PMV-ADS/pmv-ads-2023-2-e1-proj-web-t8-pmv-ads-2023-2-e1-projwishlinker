@@ -18,7 +18,7 @@ function loadInitialData() {
   if(!localStorage.getItem("listaDeDesejos")){
     const produtosListaDeDesejos = [
       {
-          "id": 4,
+          "id": 1,
           "categoria": "Vestuário",
           "nome": "Tênis Nike Air Max Impact 4",
           "valor": "439,99",
@@ -27,7 +27,7 @@ function loadInitialData() {
           "dataCadastro": "16/10/2023"
       },
       {
-          "id": 5,
+          "id": 2,
           "categoria": "Eletrônicos",
           "nome": "Placa Mãe Gigabyte B760M AORUS ELITE",
           "valor": "1129,99",
@@ -36,14 +36,95 @@ function loadInitialData() {
           "dataCadastro": "16/10/2023"
       },
       {
-          "id": 6,
+          "id": 3,
           "categoria": "Games",
           "nome": "Cyberpunk 2077",
           "valor": "199,90",
           "origem": "Steam",
           "url": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/",
           "dataCadastro": "16/10/2023"
-      }
+      },
+      {
+         "id": 4,
+         "categoria": "Eletrônicos",
+         "nome": "Moto E13 64gb",
+         "valor": "589,00",
+         "origem": "Mercado Livre",
+         "url": "https://www.mercadolivre.com.br/moto-e13-64gb-4gb-ram-octa-core-tela-de-65-hd-cam-13mp-cor-off-white/p/MLB22412153#polycard_client=recommendations_home_navigation-recommendations&reco_backend=machinalis-homes-pdp-boos&reco_client=home_navigation-recommendations&reco_item_pos=0&reco_backend_type=function&reco_id=7d5f1b32-d07b-452b-ad1b-4283761ffe10&wid=MLB3280473645&sid=recos",
+         "dataCadastro": "16/11/2023"
+      },
+      {
+         "id": 5,
+         "categoria": "Livros",
+         "nome": "Código limpo",
+         "valor": "71,92",
+         "origem": "Amazon Brasil",
+         "url": "https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/?_encoding=UTF8&pd_rd_i=8576082675&pd_rd_w=PMc2n&content-id=amzn1.sym.ca171b73-930c-46b6-8e0f-c1ee823ddd5d&pf_rd_p=ca171b73-930c-46b6-8e0f-c1ee823ddd5d&pf_rd_r=KHQ3YHKD9M997NNJBVTW&pd_rd_wg=jr5RH&pd_rd_r=bd86de3c-2a10-4ad7-8329-81248919fe19&ref_=oct_dx_dotd",
+         "dataCadastro": "18/11/2023"
+      },
+      {
+         "id": 6,
+         "categoria": "Cama, Mesa e Banho",
+         "nome": "Jogo de toalhas",
+         "valor": "189,99",
+         "origem": "Americanas",
+         "url": "https://www.americanas.com.br/produto/28064590/jogo-de-toalhas-banhao-gigante-karsten-lumina-5-pecas-fio-penteado-emcompre?pfm_carac=os%20mais%20vendidos%20da%20categoria&pfm_index=2&pfm_page=category&pfm_pos=category_page.rr1&pfm_type=vit_recommendation&DCSext.recom=RR_category_page.rr1-mars_TopSalesCategory%3AP%3A100%3A%3Aads%3Dtrue%3AorderAdsTest%3Dmotor_high_ads%3Atestab%3DsingleStrategy&nm_origem=rec_category_page.rr1-mars_TopSalesCategory%3AP%3A100%3A%3Aads%3Dtrue%3AorderAdsTest%3Dmotor_high_ads%3Atestab%3DsingleStrategy&nm_ranking_rec=2&chave=b2wads_5c5d64c662f9f20fa00c1e20_79124079000627_28064590_0ae7e4c9-bd82-4f1d-bed8-1a49692aefe0&sellerId=79124079000627&portfolio=rec&st=mars_TopSalesCategory&pl=category_page.rr1&offerId=606429cc0c0704426620945b&cor=Bege%20azul&condition=NEW",
+         "dataCadastro": "18/10/2023"
+      },
+      {
+         "id": 7,
+         "categoria": "Móveis",
+         "nome": "Guarda-Roupa Casal",
+         "valor": "597,70",
+         "origem": "Magazine Luiza",
+         "url": "https://www.magazineluiza.com.br/guarda-roupa-casal-katherine-3-portas-2-gavetas-com-espelho-branco-panorama-moveis/p/je13gj3b6c/mo/guro/",
+         "dataCadastro": "18/10/2023"
+       },
+       {
+         "id": 8,
+         "categoria": "Brinquedos",
+         "nome": "Mesa Infantil Colorida",
+         "valor": "121,90",
+         "origem": "Shopee",
+         "url": "https://shopee.com.br/Mesa-Infantil-Colorida-Com-2-Cadeira-Tritec-Menina-i.365257077.7573504202",
+         "dataCadastro": "18/10/2023"
+       },
+       {
+        "id": 9,
+        "categoria": "Colchões",
+        "nome": "Colchão Casal Inflável",
+        "valor": "189,74",
+        "origem": "Casa Bahia",
+        "url": "https://www.casasbahia.com.br/colchao-casal-inflavel-bomba-de-ar-manual-vg-plus/p/1560954875?utm_source=Google&utm_medium=BuscaOrganica&utm_campaign=DescontoEspecial",
+        "dataCadastro": "18/10/2023"
+       },
+       {
+        "id": 10,
+        "categoria": "Ferramentas",
+        "nome": "Parafusadeira e Furadeira",
+        "valor": "188,78",
+        "origem": "Ponto Frio",
+        "url": "https://www.pontofrio.com.br/parafusadeira-e-furadeira-wap-bpf-12k3-carregador-bivolt-12v-3-8-com-acessorios-e-maleta/p/55054261?utm_source=Google&utm_medium=BuscaOrganica&utm_campaign=DescontoEspecial",
+        "dataCadastro": "18/10/2023"
+       }, 
+       {
+        "id": 11,
+        "categoria": "Beleza & Perfumaria",
+        "nome": "Perfume Paco Rabanne",
+        "valor": "539,90",
+        "origem": "Renner",
+        "url": "https://www.lojasrenner.com.br/p/perfume-paco-rabanne-invictus-victory-eau-de-parfum/-/A-572971881-br.lr?sku=572971902",
+        "dataCadastro": "18/10/2023"
+       },
+       {
+        "id": 12,
+        "categoria": "Bebê",
+        "nome": "Bebezinha Impressão De Natal Bodysuit & Testeira",
+        "valor": "33,29",
+        "origem": "Shein",
+        "url": "https://m.shein.com/br/Baby-Girl-Christmas-Print-Bodysuit-Headband-p-21410167-cat-2838.html?mallCode=1&imgRatio=3-4&src_module=sidecat&src_identifier=fc%3DAll%60sc%3DBabyMaternity%60tc%3D0%60oc%3DBeb%C3%AAzinhas%20%280-3%20anos%29%60ps%3Dtab01navbar15menu01dir6%60jc%3Dreal_3225&src_tab_page_id=page_real_class1700366928178&showFeedbackRec=1",
+        "dataCadastro": "18/10/2023"
+    }
     ];
 
     localStorage.setItem("listaDeDesejos", JSON.stringify(produtosListaDeDesejos));
@@ -81,7 +162,7 @@ function loadInitialData() {
         "origem": "Steam",
         "url": "https://store.steampowered.com/app/1716740/Starfield/",
         "fimQuarentena": "17/10/2023",
-        "adquirido": true,
+        "adquirido": false,
         "dataCadastro": "16/10/2023"
       }
     ];
