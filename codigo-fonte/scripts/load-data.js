@@ -109,11 +109,11 @@ function loadInitialData() {
        }, 
        {
         "id": 11,
-        "categoria": "Beleza & Perfumaria",
-        "nome": "Perfume Paco Rabanne",
-        "valor": "539,90",
+        "categoria": "Moda",
+        "nome": "Maio Infantil Com Babadinho",
+        "valor": "130,30",
         "origem": "Renner",
-        "url": "https://www.lojasrenner.com.br/p/perfume-paco-rabanne-invictus-victory-eau-de-parfum/-/A-572971881-br.lr?sku=572971902",
+        "url": "https://www.lojasrenner.com.br/p/maio-infantil-com-babadinho-ursinho-ted-ceci-moda-praia/-/A-7010701945804-br.lr?sku=7510704071680",
         "dataCadastro": "18/10/2023"
        },
        {
@@ -164,6 +164,105 @@ function loadInitialData() {
         "fimQuarentena": "17/10/2023",
         "adquirido": false,
         "dataCadastro": "16/10/2023"
+      },
+      {
+        "id": 4,
+        "categoria": "Esporte e Lazer",
+        "nome": "Bike Spinning",
+        "valor": "1399,90",
+        "origem": "Extra",
+        "url": "https://www.extra.com.br/bike-spinning-e33-acte-sports-com-roda-de-inercia-de-6kg-monitor-multifuncoes-sensor-de-pulso-suporta-ate-100kg-preto-vermelho/p/55057346",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 5,
+        "categoria": "Automotivo",
+        "nome": "Hyundai HB20 1.0",
+        "valor": "53990,00",
+        "origem": "OLX",
+        "url": "https://mg.olx.com.br/belo-horizonte-e-regiao/autos-e-pecas/carros-vans-e-utilitarios/hyundai-hb20-1-0-unique-12v-flex-4p-manual-1245080082?lis=galeria_home_autos_feirao",
+        "fimQuarentena": "15/12/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 6,
+        "categoria": "Saúde e Cuidados Pessoais",
+        "nome": "Termômetro Falante Infravermelho Digital",
+        "valor": "247,00",
+        "origem": "Mercado Livre",
+        "url": "https://produto.mercadolivre.com.br/MLB-1900116737-termmetro-falante-infravermelho-digital-voz-em-espanhol-_JM#position=4&search_layout=stack&type=item&tracking_id=5f96bf12-4286-451d-a148-a5e35684e8db",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 7,
+        "categoria": "Relógios",
+        "nome": "CURREN Relógio",
+        "valor": "84,99",
+        "origem": "Shopee",
+        "url": "https://shopee.com.br/CURREN-Rel%C3%B3gio-Original-Masculino-Casual-Couro-Simples-Esportivo-Quartzo-Imperme%C3%A1vel-CR91-X-i.392967703.23922393243?sp_atk=e9076f65-61e1-453b-8555-2654600b72a6&xptdk=e9076f65-61e1-453b-8555-2654600b72a6",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 8,
+        "categoria": "Pet Shop",
+        "nome": "Roupa Pet Personalizado",
+        "valor": "69,99",
+        "origem": "Elo7",
+        "url": "https://www.elo7.com.br/roupa-pet-personalizado-azul-marinho/dp/1731AEC?pp=13&pn=1&nav=sch_pd_sr_1_13&qrid=SGy3hwMzoJNu#dvbc=1&dwhc=1&dcc=0&lpfcm=1&sedk=1&osrlt7=0&sek=0&fsfv=0&wch=0&sbc=1&wcld=1&oppb=0&ses=1&pssb=0&seb=0&dtm1=1&usb=1&dvsbs=1&sei=1&pcpe=1&dtm2=0&df=d&hpa=0&hsotb=0&srwv=1&sewb=0&sepi=0&vpl=1&wppbd=0&wsld=1&utp=0&dld=1&uje=0&carf=1&lvbbpm=1&sgta=1&wpm=0&sed=1&sea=0&pdp=0&wppbm=0&doar=0&csdm=0&dhbc=0&sep=1&osrl=0&disc=1&sew=0&psedm=0&hsv=1&cscws=0&uso=o&vsbs=1&deac=0&droam=0&lvbbob=0&psews=0&set=0&accb=1&sseov=0",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 9,
+        "categoria": "Serviços",
+        "nome": "Montagem de Guarda-roupas",
+        "valor": "219,00",
+        "origem": "Magazine Luiza",
+        "url": "https://www.magazineluiza.com.br/montagem-de-guarda-roupas-6-a-8-portas-convencional-magalu-montagem/p/fbj0ej40jd/se/mmov/",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 10,
+        "categoria": "Artesanato",
+        "nome": "Peça Artesanato De Decoração Com Design De Água-Viva",
+        "valor": "60,95",
+        "origem": "Shein",
+        "url": "https://m.shein.com/br/1pc-Jellyfish-Design-Decoration-Craft-Modern-Crystal-Ball-Night-Light-Shaped-Decorative-Object-For-Home-p-26384726-cat-1958.html?mallCode=1&imgRatio=3-4&src_module=sidecat&src_identifier=fc%3DHome%60sc%3DHOMELIVING%60tc%3D0%60oc%3DDecora%C3%A7%C3%A3o%20de%20casa%60ps%3Dtab06navbar01menu01dir6%60jc%3DitemPicking_002112928&src_tab_page_id=page_select_class1700414246387&showFeedbackRec=1",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 11,
+        "categoria": "Áudio",
+        "nome": "Caixa De Som jbl",
+        "valor": "1799,10",
+        "origem": "Americanas",
+        "url": "https://www.americanas.com.br/produto/632953627/caixa-de-som-jbl-partybox-100-160w-bluetooth-luzes-de-led?pfm_carac=voc%C3%AA%20tamb%C3%A9m%20pode%20gostar%20disso&pfm_index=3&pfm_page=product&pfm_pos=item_page.rr1&pfm_type=vit_recommendation&DCSext.recom=RR_item_page.rr1-mars_ClickCP%3AP%3A95%3A%3Aads%3Dtrue%3AorderAdsTest%3Dmotor_high_ads%3Atestab%3DsingleStrategy&nm_origem=rec_item_page.rr1-mars_ClickCP%3AP%3A95%3A%3Aads%3Dtrue%3AorderAdsTest%3Dmotor_high_ads%3Atestab%3DsingleStrategy&nm_ranking_rec=3&offerId=6426dcd2579fbc8d91bcda38&cor=Preto&crossdocking=2&voltagem=Bvolt&condition=NEW",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
+      },
+      {
+        "id": 12,
+        "categoria": "Ar e Ventilação",
+        "nome": "Ventilador de Mesa",
+        "valor": "132,90",
+        "origem": "Ponto Frio",
+        "url": "https://www.pontofrio.com.br/ventilador-de-mesa-30cm-mondial-super-power-vsp-30-b-6-pas-3-velocidades-preto/p/55029986?utm_source=Google&utm_medium=BuscaOrganica&utm_campaign=DescontoEspecial",
+        "fimQuarentena": "29/11/2023",
+        "adquirido": false,
+        "dataCadastro": "19/11/2023"
       }
     ];
 
