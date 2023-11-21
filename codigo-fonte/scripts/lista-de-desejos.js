@@ -206,6 +206,19 @@ function associaCategoriaProdutoIcone(produtos, icones) {
   return resultado;
 }
 
+function verificarCamposPreenchidos() {
+  let todosPreenchidos = true;
+
+  $("#editProductForm .required").each(function () {
+    if ($(this).val() === "") {
+      todosPreenchidos = false;
+      return false;
+    }
+  });
+
+  $("#saveEditButton").prop("disabled", !todosPreenchidos);
+}
+
 $(document).ready(function () {
   $("#editValor").inputmask("currency", {
     alias: "numeric",
@@ -213,6 +226,10 @@ $(document).ready(function () {
     radixPoint: ",",
     digits: 2,
   });
+
+  $("#editProductForm .form-control").addClass("required");
+  $("#editProductForm .required").change(verificarCamposPreenchidos);
+  $("#editProductModal").on("show.bs.modal", verificarCamposPreenchidos);
 
   if (localStorage.getItem("listaDeDesejos")) {
     const produtos = JSON.parse(localStorage.getItem("listaDeDesejos"));
@@ -242,5 +259,3 @@ $(document).ready(function () {
     exibirMensagemVazia();
   }
 });
-
-//TODO: deixar botão salvar desativado até que todos os campos required sejam preenchidos
