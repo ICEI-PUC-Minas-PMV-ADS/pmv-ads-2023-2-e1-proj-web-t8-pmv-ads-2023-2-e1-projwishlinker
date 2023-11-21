@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 function loadInitialData() {
   if (!localStorage.getItem("users")) {
     const userPasswords = [
@@ -356,4 +358,18 @@ function loadInitialData() {
   }
 }
 
-loadInitialData();
+function restoreFactoryData() {
+  localStorage.clear();
+
+  loadInitialData();
+}
+
+$(document).ready(function () {
+  loadInitialData();
+
+  $("#factoryReset").click(function (event) {
+    console.log("factoryReset");
+    event.preventDefault();
+    restoreFactoryData();
+  });
+});
