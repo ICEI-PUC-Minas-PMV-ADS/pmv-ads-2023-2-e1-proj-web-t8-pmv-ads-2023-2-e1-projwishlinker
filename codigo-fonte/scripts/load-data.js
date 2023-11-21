@@ -306,7 +306,10 @@ function loadInitialData() {
     const icones = [
       { categoria: "Ar e Ventilação", icone: "fas fa-fan" },
       { categoria: "Artesanato", icone: "fas fa-paint-brush" },
-      { categoria: "Artigos para Festas", icone: "fas fa-birthday-cake" },
+      {
+        categoria: "Artigos para Festa",
+        icone: "fa-solid fa-champagne-glasses",
+      },
       { categoria: "Áudio", icone: "fas fa-volume-up" },
       { categoria: "Automotivo", icone: "fas fa-car" },
       { categoria: "Bebê", icone: "fas fa-baby" },
