@@ -15,7 +15,7 @@ function confirmarExclusao(produtoId, preencherTabelaFunction) {
     if (index !== -1) {
       produtos.splice(index, 1);
       localStorage.setItem("listaDeDesejos", JSON.stringify(produtos));
-      preencherTabelaFunction(produtos);
+      refresh();
     }
   }
 }
@@ -164,13 +164,12 @@ function preencherTabela(produtos) {
         refresh();
       });
   });
-
 }
 
 function exibirMensagemTabela(mensagem) {
   const tabela = $("table tbody");
   tabela.html(
-    `<tr><td colspan="8" class="text-center">`+mensagem+`</td></tr>`
+    `<tr><td colspan="8" class="text-center">` + mensagem + `</td></tr>`
   );
 }
 
@@ -235,12 +234,14 @@ $(document).ready(function () {
   $("#editProductModal").on("show.bs.modal", verificarCamposPreenchidos);
 
   if (localStorage.getItem("listaDeDesejos")) {
-    const produtos = JSON.parse(localStorage.getItem("listaDeDesejos"));
+    const produtos = JSON.parse(localStorage.getItem("listaDeDesejos")).sort(
+      function (a, b) {
+        return b.id - a.id;
+      }
+    );
 
     if (localStorage.getItem("iconesCategorias")) {
-      const produtosIconeCategoria = associaCategoriaProdutoIcone(
-        produtos
-      );
+      const produtosIconeCategoria = associaCategoriaProdutoIcone(produtos);
 
       let nextItemId = 1;
       if (produtosIconeCategoria.length > 0) {
@@ -252,7 +253,9 @@ $(document).ready(function () {
       if (produtosIconeCategoria.length > 0) {
         preencherTabela(produtosIconeCategoria);
       } else {
-        exibirMensagemTabela("Você ainda não possui nenhum produto cadastrado.");
+        exibirMensagemTabela(
+          "Você ainda não possui nenhum produto cadastrado."
+        );
       }
     }
   } else {
@@ -263,79 +266,90 @@ $(document).ready(function () {
 function inicializaFuncionalidades() {
   pesquisaItens();
   preencheSelects();
-  limparFiltros(); 
+  limparFiltros();
 }
 
 function refresh() {
   window.location.reload();
 }
 
-function pesquisaItens(){
-  $('#pesquisarItemButton').click(function() {
+function pesquisaItens() {
+  $("#pesquisarItemButton").click(function () {
     //recupera os valores dos campos
-    let categoria = $('#pesquisaCategoria').val() ? $('#pesquisaCategoria').val().trim().toLowerCase() : '';
-    let origem = $('#pesquisaOrigem').val() ? $('#pesquisaOrigem').val().trim().toLowerCase() : '';
-    let nomeItem = $('#pesquisaNome').val() ? $('#pesquisaNome').val().trim().toLowerCase() : '';
+    let categoria = $("#pesquisaCategoria").val()
+      ? $("#pesquisaCategoria").val().trim().toLowerCase()
+      : "";
+    let origem = $("#pesquisaOrigem").val()
+      ? $("#pesquisaOrigem").val().trim().toLowerCase()
+      : "";
+    let nomeItem = $("#pesquisaNome").val()
+      ? $("#pesquisaNome").val().trim().toLowerCase()
+      : "";
 
     //recupera a lista de desejos do localStorage
-    let listaDeDesejos = JSON.parse(localStorage.getItem('listaDeDesejos')) || [];
+    let listaDeDesejos =
+      JSON.parse(localStorage.getItem("listaDeDesejos")) || [];
 
     //filtra a lista de desejos de acordo com os filtros informados (caso o filtro nao seja informado, nao sera aplicado)
-    let resultadosFiltrados = listaDeDesejos.filter(function(item) {
-      let filtroCategoria = categoria === '' || item.categoria.toLowerCase() === categoria;
-      let filtroOrigem = origem === '' || item.origem.toLowerCase() === origem;
-      let filtroNome = nomeItem === '' || item.nome.toLowerCase().includes(nomeItem);
+    let resultadosFiltrados = listaDeDesejos.filter(function (item) {
+      let filtroCategoria =
+        categoria === "" || item.categoria.toLowerCase() === categoria;
+      let filtroOrigem = origem === "" || item.origem.toLowerCase() === origem;
+      let filtroNome =
+        nomeItem === "" || item.nome.toLowerCase().includes(nomeItem);
 
-        return filtroCategoria && filtroOrigem && filtroNome;
+      return filtroCategoria && filtroOrigem && filtroNome;
     });
-    
+
     //caso nenhum registro seja encontrado exibe uma mensagem na tabela
-    if(resultadosFiltrados.length === 0){
-      exibirMensagemTabela("Nenhum produto foi localizado para os filtros informados.");
+    if (resultadosFiltrados.length === 0) {
+      exibirMensagemTabela(
+        "Nenhum produto foi localizado para os filtros informados."
+      );
       return;
-    }else{
+    } else {
       //associa a categoria do produto com o icone correspondente e faz a chamada de preencherTabela para exibir os resultados
       resultadosFiltrados = associaCategoriaProdutoIcone(resultadosFiltrados);
-      preencherTabela(resultadosFiltrados);  
+      preencherTabela(resultadosFiltrados);
     }
   });
 }
 
-function limparFiltros(){
-  $('#limparFiltros').click(function() {
-    $('#pesquisaCategoria').val('');
-    $('#pesquisaOrigem').val('');
-    $('#pesquisaNome').val('');
+function limparFiltros() {
+  $("#limparFiltros").click(function () {
+    $("#pesquisaCategoria").val("");
+    $("#pesquisaOrigem").val("");
+    $("#pesquisaNome").val("");
     refresh();
   });
 }
 
-function preencheSelects(){
+function preencheSelects() {
   //le as categorias cadastradas no localstorage
-  let opcoesCategoria = JSON.parse(localStorage.getItem('opcoesCategoria'))
+  let opcoesCategoria = JSON.parse(localStorage.getItem("opcoesCategoria"));
 
   //recupera os elementos selects que precisam ser preenchidos
   var selectCategoria = document.getElementById("pesquisaCategoria");
   var editCategoria = document.getElementById("editCategoria");
-  
+
   //preenche ambos os selects com as opcoes de categoria
-  opcoesCategoria.forEach(function(opcao){
+  opcoesCategoria.forEach(function (opcao) {
     var optionSelect = new Option(opcao.text, opcao.value);
     selectCategoria.add(optionSelect);
 
     var optionEdit = new Option(opcao.text, opcao.value);
     editCategoria.add(optionEdit);
   });
-  
+
   //le as origens cadastradas no localstorage
-  let opcoesOrigem = JSON.parse(localStorage.getItem('opcoesOrigem'))
-  
+  let opcoesOrigem = JSON.parse(localStorage.getItem("opcoesOrigem"));
+
   //recupera os elementos selects que precisam ser preenchidos
   var selectOrigem = document.getElementById("pesquisaOrigem");
   var editOrigem = document.getElementById("editOrigem");
-  
+
   //preenche ambos os selects com as opcoes de origem
-  opcoesOrigem.forEach(function(opcao){
+  opcoesOrigem.forEach(function (opcao) {
     var optionSelect = new Option(opcao.text, opcao.value);
     selectOrigem.add(optionSelect);
 
