@@ -104,8 +104,8 @@ function preencherTabela(produtos) {
           produtos[index] = produtoEditando;
         }
         localStorage.setItem("listaDeDesejos", JSON.stringify(produtos));
-        preencherTabela(produtos);
         editProductModal.hide();
+        refresh();
       });
   });
 
@@ -160,8 +160,8 @@ function preencherTabela(produtos) {
           JSON.parse(localStorage.getItem("listaDeDesejos")) || [];
         produtos.push(novoItem);
         localStorage.setItem("listaDeDesejos", JSON.stringify(produtos));
-        preencherTabela(produtos);
         editProductModal.hide();
+        refresh();
       });
   });
 }
@@ -259,3 +259,7 @@ $(document).ready(function () {
     exibirMensagemVazia();
   }
 });
+
+function refresh() {
+  window.location.reload();
+}

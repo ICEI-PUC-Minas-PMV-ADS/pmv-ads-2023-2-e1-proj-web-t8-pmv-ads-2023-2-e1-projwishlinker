@@ -115,8 +115,8 @@ function preencherTabela(produtos) {
           produtos[index] = produtoEditando;
         }
         localStorage.setItem("quarentenaDeCompras", JSON.stringify(produtos));
-        preencherTabela(produtos);
         editProductModal.hide();
+        refresh();
       });
   });
 
@@ -177,8 +177,8 @@ function preencherTabela(produtos) {
           JSON.parse(localStorage.getItem("quarentenaDeCompras")) || [];
         produtos.push(novoItem);
         localStorage.setItem("quarentenaDeCompras", JSON.stringify(produtos));
-        preencherTabela(produtos);
         editProductModal.hide();
+        refresh();
       });
   });
 }
@@ -300,3 +300,7 @@ $(document).ready(function () {
     exibirMensagemVazia();
   }
 });
+
+function refresh() {
+  window.location.reload();
+}
