@@ -126,17 +126,63 @@
             <h3 class="text-bold" aria-label="Lista de desejos">
               Lista de desejos
             </h3>
-            <button
-              class="btn btn-primary h-50px me-3 d-flex align-items-center"
-              id="adicionarItemButton"
-              aria-label="Adicionar Item"
-            >
-              <i class="fa fa-plus-circle fs-4 me-2"></i>
-              <span class="fw-normal fs-7" aria-label="ADICIONAR ITEM"
-                >ADICIONAR ITEM</span
+            <div class="d-flex justify-content-right align-items-center">
+              <button
+                class="btn btn-primary h-50px me-3 d-flex align-items-center"
+                id="limparFiltros"
+                aria-label="Limpar Filtros de Pesquisa"
               >
-            </button>
+                <i class="fa fa-times fs-4 me-2"></i>
+                <span class="fw-normal fs-7" aria-label="Limpar Filtros de Pesquisa"
+                  >LIMPAR FILTROS</span
+                >
+              </button>
+              <button
+                class="btn btn-primary h-50px me-3 d-flex align-items-center"
+                id="pesquisarItemButton"
+                aria-label="Pesquisar"
+              >
+                <i class="fa fa-magnifying-glass fs-4 me-2"></i>
+                <span class="fw-normal fs-7" aria-label="PESQUISAR"
+                  >PESQUISAR</span
+                >
+              </button>
+              <button
+                class="btn btn-primary h-50px me-3 d-flex align-items-center"
+                id="adicionarItemButton"
+                aria-label="Adicionar Item"
+              >
+                <i class="fa fa-plus-circle fs-4 me-2"></i>
+                <span class="fw-normal fs-7" aria-label="ADICIONAR ITEM"
+                  >ADICIONAR ITEM</span
+                >
+              </button>
+            </div>
           </div>
+          <!-- FORMULARIO DE PESQUISA -->
+          <div class="container-fluid p-4">
+            <form id="formularioPesquisa">
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="pesquisaCategoria" class="form-label">Categoria</label>
+                        <select class="form-select" id="pesquisaCategoria">
+                            <option value="">Selecione uma categoria</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="pesquisaOrigem" class="form-label">Origem</label>
+                        <select class="form-select" id="pesquisaOrigem">
+                            <option value="">Selecione uma origem</option>
+                        </select>
+                    </div>
+                    <div class="col">
+                        <label for="pesquisaNome" class="form-label">Item</label>
+                        <input type="text" class="form-control" id="pesquisaNome" placeholder="Digite o nome do item">
+                    </div>
+                </div>
+            </form>
+          </div>
+          
           <hr class="border-top opacity-75" />
           <div class="table-wrapper">
             <div class="table-responsive">
@@ -232,281 +278,16 @@
                     aria-label="Categoria"
                     >Categoria</label
                   >
+                  <!-- O select abaixo é preenchido com dados do localStorage -->
                   <select class="form-select p-3" id="editCategoria" required>
-                    <option
-                      value="Ar e Ventilação"
-                      aria-label="Ar e Ventilação"
-                    >
-                      Ar e Ventilação
-                    </option>
-                    <option value="Artesanato" aria-label="Artesanato">
-                      Artesanato
-                    </option>
-                    <option
-                      value="Artigos para Festa"
-                      aria-label="Artigos para Festa"
-                    >
-                      Artigos para Festa
-                    </option>
-                    <option value="Áudio" aria-label="Áudio">Áudio</option>
-                    <option value="Automotivo" aria-label="Automotivo">
-                      Automotivo
-                    </option>
-                    <option value="Bebê" aria-label="Bebê">Bebê</option>
-                    <option
-                      value="Beleza & Perfumaria"
-                      aria-label="Beleza & Perfumaria"
-                    >
-                      Beleza & Perfumaria
-                    </option>
-                    <option
-                      value="Bem-estar Sexual"
-                      aria-label="Bem-estar Sexual"
-                    >
-                      Bem-estar Sexual
-                    </option>
-                    <option value="Brinquedos" aria-label="Brinquedos">
-                      Brinquedos
-                    </option>
-                    <option
-                      value="Cama, Mesa e Banho"
-                      aria-label="Cama, Mesa e Banho"
-                    >
-                      Cama, Mesa e Banho
-                    </option>
-                    <option
-                      value="Câmeras e Drones"
-                      aria-label="Câmeras e Drones"
-                    >
-                      Câmeras e Drones
-                    </option>
-                    <option
-                      value="Casa e Construção"
-                      aria-label="Casa e Construção"
-                    >
-                      Casa e Construção
-                    </option>
-                    <option
-                      value="Casa Inteligente"
-                      aria-label="Casa Inteligente"
-                    >
-                      Casa Inteligente
-                    </option>
-                    <option
-                      value="Celulares e Smartphones"
-                      aria-label="Celulares e Smartphones"
-                    >
-                      Celulares e Smartphones
-                    </option>
-                    <option value="Colchões" aria-label="Colchões">
-                      Colchões
-                    </option>
-                    <option
-                      value="Comércio e Indústria"
-                      aria-label="Comércio e Indústria"
-                    >
-                      Comércio e Indústria
-                    </option>
-                    <option value="Cursos" aria-label="Cursos">Cursos</option>
-                    <option value="Decoração" aria-label="Decoração">
-                      Decoração
-                    </option>
-                    <option
-                      value="Eletrodomésticos"
-                      aria-label="Eletrodomésticos"
-                    >
-                      Eletrodomésticos
-                    </option>
-                    <option value="Eletrônicos" aria-label="Eletrônicos">
-                      Eletrônicos
-                    </option>
-                    <option
-                      value="Esporte e Lazer"
-                      aria-label="Esporte e Lazer"
-                    >
-                      Esporte e Lazer
-                    </option>
-                    <option value="Ferramentas" aria-label="Ferramentas">
-                      Ferramentas
-                    </option>
-                    <option
-                      value="Filmes e Séries"
-                      aria-label="Filmes e Séries"
-                    >
-                      Filmes e Séries
-                    </option>
-                    <option
-                      value="Flores e Jardim"
-                      aria-label="Flores e Jardim"
-                    >
-                      Flores e Jardim
-                    </option>
-                    <option value="Games" aria-label="Games">Games</option>
-                    <option value="Informática" aria-label="Informática">
-                      Informática
-                    </option>
-                    <option
-                      value="Instrumentos Musicais"
-                      aria-label="Instrumentos Musicais"
-                    >
-                      Instrumentos Musicais
-                    </option>
-                    <option value="Livros" aria-label="Livros">Livros</option>
-                    <option value="Mercado" aria-label="Mercado">
-                      Mercado
-                    </option>
-                    <option value="Moda" aria-label="Moda">Moda</option>
-                    <option value="Móveis" aria-label="Móveis">Móveis</option>
-                    <option value="Música e Shows" aria-label="Música e Shows">
-                      Música e Shows
-                    </option>
-                    <option value="Natal" aria-label="Natal">Natal</option>
-                    <option value="Papelaria" aria-label="Papelaria">
-                      Papelaria
-                    </option>
-                    <option value="Pet Shop" aria-label="Pet Shop">
-                      Pet Shop
-                    </option>
-                    <option
-                      value="Religião e Espiritualidade"
-                      aria-label="Religião e Espiritualidade"
-                    >
-                      Religião e Espiritualidade
-                    </option>
-                    <option value="Relógios" aria-label="Relógios">
-                      Relógios
-                    </option>
-                    <option
-                      value="Saúde e Cuidados Pessoais"
-                      aria-label="Saúde e Cuidados Pessoais"
-                    >
-                      Saúde e Cuidados Pessoais
-                    </option>
-                    <option value="Serviços" aria-label="Serviços">
-                      Serviços
-                    </option>
-                    <option
-                      value="Suplementos Alimentares"
-                      aria-label="Suplementos Alimentares"
-                    >
-                      Suplementos Alimentares
-                    </option>
-                    <option
-                      value="Tablets, iPads e E-Reader"
-                      aria-label="Tablets, iPads e E-Reader"
-                    >
-                      Tablets, iPads e E-Reader
-                    </option>
-                    <option value="Telefonia Fixa" aria-label="Telefonia Fixa">
-                      Telefonia Fixa
-                    </option>
-                    <option value="TV e Vídeo" aria-label="TV e Vídeo">
-                      TV e Vídeo
-                    </option>
-                    <option
-                      value="Utilidades Domésticas"
-                      aria-label="Utilidades Domésticas"
-                    >
-                      Utilidades Domésticas
-                    </option>
-                    <option value="Vestuário" aria-label="Vestuário">
-                      Vestuário
-                    </option>
                   </select>
                 </div>
                 <div class="col-6">
                   <label for="editOrigem" class="form-label" aria-label="Origem"
                     >Origem</label
                   >
+                  <!-- O select abaixo é preenchido com dados do localStorage -->
                   <select class="form-select p-3" id="editOrigem" required>
-                    <option value="Steam" aria-label="Opção: Steam">
-                      Steam
-                    </option>
-                    <option value="Netshoes" aria-label="Opção: Netshoes">
-                      Netshoes
-                    </option>
-                    <option
-                      value="Mercado Livre"
-                      aria-label="Opção: Mercado Livre"
-                    >
-                      Mercado Livre
-                    </option>
-                    <option
-                      value="Amazon Brasil"
-                      aria-label="Opção: Amazon Brasil"
-                    >
-                      Amazon Brasil
-                    </option>
-                    <option value="Americanas" aria-label="Opção: Americanas">
-                      Americanas
-                    </option>
-                    <option value="Submarino" aria-label="Opção: Submarino">
-                      Submarino
-                    </option>
-                    <option
-                      value="Magazine Luiza"
-                      aria-label="Opção: Magazine Luiza"
-                    >
-                      Magazine Luiza
-                    </option>
-                    <option value="Shopee" aria-label="Opção: Shopee">
-                      Shopee
-                    </option>
-                    <option value="Elo7" aria-label="Opção: Elo7">Elo7</option>
-                    <option value="B2W" aria-label="Opção: B2W">B2W</option>
-                    <option value="Dafiti" aria-label="Opção: Dafiti">
-                      Dafiti
-                    </option>
-                    <option value="Netshoes" aria-label="Opção: Netshoes">
-                      Netshoes
-                    </option>
-                    <option
-                      value="Carrefour Brasil"
-                      aria-label="Opção: Carrefour Brasil"
-                    >
-                      Carrefour Brasil
-                    </option>
-                    <option value="Casa Bahia" aria-label="Opção: Casa Bahia">
-                      Casa Bahia
-                    </option>
-                    <option value="Extra" aria-label="Opção: Extra">
-                      Extra
-                    </option>
-                    <option value="Zattini" aria-label="Opção: Zattini">
-                      Zattini
-                    </option>
-                    <option value="Kabum" aria-label="Opção: Kabum">
-                      Kabum
-                    </option>
-                    <option value="Ponto Frio" aria-label="Opção: Ponto Frio">
-                      Ponto Frio
-                    </option>
-                    <option value="Centauro" aria-label="Opção: Centauro">
-                      Centauro
-                    </option>
-                    <option value="Camicado" aria-label="Opção: Camicado">
-                      Camicado
-                    </option>
-                    <option
-                      value="MadeiraMadeira"
-                      aria-label="Opção: MadeiraMadeira"
-                    >
-                      MadeiraMadeira
-                    </option>
-                    <option value="OLX" aria-label="Opção: OLX">OLX</option>
-                    <option value="Shein" aria-label="Opção: Shein">
-                      Shein
-                    </option>
-                    <option value="C&A" aria-label="Opção: C&A">C&A</option>
-                    <option value="Via Varejo" aria-label="Opção: Via Varejo">
-                      Via Varejo
-                    </option>
-                    <option value="Renner" aria-label="Opção: Renner">
-                      Renner
-                    </option>
-                    <option value="Kanui" aria-label="Opção: Kanui">
-                      Kanui
-                    </option>
                   </select>
                 </div>
               </div>

@@ -306,10 +306,7 @@ function loadInitialData() {
     const icones = [
       { categoria: "Ar e Ventilação", icone: "fas fa-fan" },
       { categoria: "Artesanato", icone: "fas fa-paint-brush" },
-      {
-        categoria: "Artigos para Festa",
-        icone: "fa-solid fa-champagne-glasses",
-      },
+      { categoria: "Artigos para Festa", icone: "fa-solid fa-champagne-glasses" },
       { categoria: "Áudio", icone: "fas fa-volume-up" },
       { categoria: "Automotivo", icone: "fas fa-car" },
       { categoria: "Bebê", icone: "fas fa-baby" },
@@ -342,10 +339,7 @@ function loadInitialData() {
       { categoria: "Natal", icone: "fas fa-tree" },
       { categoria: "Papelaria", icone: "fas fa-pen" },
       { categoria: "Pet Shop", icone: "fas fa-paw" },
-      {
-        categoria: "Religião e Espiritualidade",
-        icone: "fas fa-praying-hands",
-      },
+      { categoria: "Religião e Espiritualidade",icone: "fas fa-praying-hands" },
       { categoria: "Relógios", icone: "fas fa-clock" },
       { categoria: "Saúde e Cuidados Pessoais", icone: "fas fa-heart" },
       { categoria: "Serviços", icone: "fas fa-cogs" },
@@ -359,6 +353,102 @@ function loadInitialData() {
 
     localStorage.setItem("iconesCategorias", JSON.stringify(icones));
   }
+  
+  preencheOpcoesCategoria();
+  preencheOpcoesOrigem();
+  
+}
+
+
+function preencheOpcoesCategoria(){
+  if(!localStorage.getItem("opcoesCategoria")){
+    const opcoesCategoria = [
+      { value: "Ar e Ventilação", text: "Ar e Ventilação" },
+      { value: "Artesanato", text: "Artesanato" },
+      { value: "Artigos para Festa", text: "Artigos para Festa" },
+      { value: "Áudio", text: "Áudio" },
+      { value: "Automotivo", text: "Automotivo" },
+      { value: "Bebê", text: "Bebê" },
+      { value: "Beleza & Perfumaria", text: "Beleza & Perfumaria" },
+      { value: "Bem-estar Sexual", text: "Bem-estar Sexual" },
+      { value: "Brinquedos", text: "Brinquedos" },
+      { value: "Cama, Mesa e Banho", text: "Cama, Mesa e Banho" },
+      { value: "Câmeras e Drones", text: "Câmeras e Drones" },
+      { value: "Casa e Construção", text: "Casa e Construção" },
+      { value: "Casa Inteligente", text: "Casa Inteligente" },
+      { value: "Celulares e Smartphones", text: "Celulares e Smartphones" },
+      { value: "Colchões", text: "Colchões" },
+      { value: "Comércio e Indústria", text: "Comércio e Indústria" },
+      { value: "Cursos", text: "Cursos" },
+      { value: "Decoração", text: "Decoração" },
+      { value: "Eletrodomésticos", text: "Eletrodomésticos" },
+      { value: "Eletrônicos", text: "Eletrônicos" },
+      { value: "Esporte e Lazer", text: "Esporte e Lazer" },
+      { value: "Ferramentas", text: "Ferramentas" },
+      { value: "Filmes e Séries", text: "Filmes e Séries" },
+      { value: "Flores e Jardim", text: "Flores e Jardim" },
+      { value: "Games", text: "Games" },
+      { value: "Informática", text: "Informática" },
+      { value: "Instrumentos Musicais", text: "Instrumentos Musicais" },
+      { value: "Livros", text: "Livros" },
+      { value: "Mercado", text: "Mercado" },
+      { value: "Moda", text: "Moda" },
+      { value: "Móveis", text: "Móveis" },
+      { value: "Música e Shows", text: "Música e Shows" },
+      { value: "Natal", text: "Natal" },
+      { value: "Papelaria", text: "Papelaria" },
+      { value: "Pet Shop", text: "Pet Shop" },
+      { value: "Religião e Espiritualidade", text: "Religião e Espiritualidade" },
+      { value: "Relógios", text: "Relógios" },
+      { value: "Saúde e Cuidados Pessoais", text: "Saúde e Cuidados Pessoais" },
+      { value: "Serviços", text: "Serviços" },
+      { value: "Suplementos Alimentares", text: "Suplementos Alimentares" },
+      { value: "Tablets, iPads e E-Reader", text: "Tablets, iPads e E-Reader" },
+      { value: "Telefonia Fixa", text: "Telefonia Fixa" },
+      { value: "TV e Vídeo", text: "TV e Vídeo" },
+      { value: "Utilidades Domésticas", text: "Utilidades Domésticas" },
+      { value: "Vestuário", text: "Vestuário" }
+    ];
+
+    localStorage.setItem("opcoesCategoria", JSON.stringify(opcoesCategoria));
+  }
+  
+}
+
+function preencheOpcoesOrigem(){
+  if(!localStorage.getItem("opcoesOrigem")){
+    var opcoesOrigem = [
+      { value: "Steam", text: "Steam" },
+      { value: "Netshoes", text: "Netshoes" },
+      { value: "Mercado Livre", text: "Mercado Livre" },
+      { value: "Amazon Brasil", text: "Amazon Brasil" },
+      { value: "Americanas", text: "Americanas" },
+      { value: "Submarino", text: "Submarino" },
+      { value: "Magazine Luiza", text: "Magazine Luiza" },
+      { value: "Shopee", text: "Shopee" },
+      { value: "Elo7", text: "Elo7" },
+      { value: "B2W", text: "B2W" },
+      { value: "Dafiti", text: "Dafiti" },
+      { value: "Carrefour Brasil", text: "Carrefour Brasil" },
+      { value: "Casa Bahia", text: "Casa Bahia" },
+      { value: "Extra", text: "Extra" },
+      { value: "Zattini", text: "Zattini" },
+      { value: "Kabum", text: "Kabum" },
+      { value: "Ponto Frio", text: "Ponto Frio" },
+      { value: "Centauro", text: "Centauro" },
+      { value: "Camicado", text: "Camicado" },
+      { value: "MadeiraMadeira", text: "MadeiraMadeira" },
+      { value: "OLX", text: "OLX" },
+      { value: "Shein", text: "Shein" },
+      { value: "C&A", text: "C&A" },
+      { value: "Via Varejo", text: "Via Varejo" },
+      { value: "Renner", text: "Renner" },
+      { value: "Kanui", text: "Kanui" }
+    ];
+    
+    localStorage.setItem("opcoesOrigem", JSON.stringify(opcoesOrigem));
+  }
+  
 }
 
 function restoreFactoryData() {
