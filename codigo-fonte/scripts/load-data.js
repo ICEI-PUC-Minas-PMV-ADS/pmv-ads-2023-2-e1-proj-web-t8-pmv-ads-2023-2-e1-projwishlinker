@@ -306,7 +306,10 @@ function loadInitialData() {
     const icones = [
       { categoria: "Ar e Ventilação", icone: "fas fa-fan" },
       { categoria: "Artesanato", icone: "fas fa-paint-brush" },
-      { categoria: "Artigos para Festa", icone: "fa-solid fa-champagne-glasses" },
+      {
+        categoria: "Artigos para Festa",
+        icone: "fa-solid fa-champagne-glasses",
+      },
       { categoria: "Áudio", icone: "fas fa-volume-up" },
       { categoria: "Automotivo", icone: "fas fa-car" },
       { categoria: "Bebê", icone: "fas fa-baby" },
@@ -333,13 +336,16 @@ function loadInitialData() {
       { categoria: "Instrumentos Musicais", icone: "fas fa-music" },
       { categoria: "Livros", icone: "fas fa-book" },
       { categoria: "Mercado", icone: "fas fa-shopping-cart" },
-      { categoria: "Moda", icone: "fas fa-tshirt" },
+      { categoria: "Moda", icone: "fa-solid fa-vest" },
       { categoria: "Móveis", icone: "fas fa-couch" },
       { categoria: "Música e Shows", icone: "fas fa-music" },
       { categoria: "Natal", icone: "fas fa-tree" },
       { categoria: "Papelaria", icone: "fas fa-pen" },
       { categoria: "Pet Shop", icone: "fas fa-paw" },
-      { categoria: "Religião e Espiritualidade",icone: "fas fa-praying-hands" },
+      {
+        categoria: "Religião e Espiritualidade",
+        icone: "fas fa-praying-hands",
+      },
       { categoria: "Relógios", icone: "fas fa-clock" },
       { categoria: "Saúde e Cuidados Pessoais", icone: "fas fa-heart" },
       { categoria: "Serviços", icone: "fas fa-cogs" },
@@ -353,15 +359,13 @@ function loadInitialData() {
 
     localStorage.setItem("iconesCategorias", JSON.stringify(icones));
   }
-  
+
   preencheOpcoesCategoria();
   preencheOpcoesOrigem();
-  
 }
 
-
-function preencheOpcoesCategoria(){
-  if(!localStorage.getItem("opcoesCategoria")){
+function preencheOpcoesCategoria() {
+  if (!localStorage.getItem("opcoesCategoria")) {
     const opcoesCategoria = [
       { value: "Ar e Ventilação", text: "Ar e Ventilação" },
       { value: "Artesanato", text: "Artesanato" },
@@ -398,7 +402,10 @@ function preencheOpcoesCategoria(){
       { value: "Natal", text: "Natal" },
       { value: "Papelaria", text: "Papelaria" },
       { value: "Pet Shop", text: "Pet Shop" },
-      { value: "Religião e Espiritualidade", text: "Religião e Espiritualidade" },
+      {
+        value: "Religião e Espiritualidade",
+        text: "Religião e Espiritualidade",
+      },
       { value: "Relógios", text: "Relógios" },
       { value: "Saúde e Cuidados Pessoais", text: "Saúde e Cuidados Pessoais" },
       { value: "Serviços", text: "Serviços" },
@@ -407,16 +414,15 @@ function preencheOpcoesCategoria(){
       { value: "Telefonia Fixa", text: "Telefonia Fixa" },
       { value: "TV e Vídeo", text: "TV e Vídeo" },
       { value: "Utilidades Domésticas", text: "Utilidades Domésticas" },
-      { value: "Vestuário", text: "Vestuário" }
+      { value: "Vestuário", text: "Vestuário" },
     ];
 
     localStorage.setItem("opcoesCategoria", JSON.stringify(opcoesCategoria));
   }
-  
 }
 
-function preencheOpcoesOrigem(){
-  if(!localStorage.getItem("opcoesOrigem")){
+function preencheOpcoesOrigem() {
+  if (!localStorage.getItem("opcoesOrigem")) {
     var opcoesOrigem = [
       { value: "Steam", text: "Steam" },
       { value: "Netshoes", text: "Netshoes" },
@@ -443,12 +449,11 @@ function preencheOpcoesOrigem(){
       { value: "C&A", text: "C&A" },
       { value: "Via Varejo", text: "Via Varejo" },
       { value: "Renner", text: "Renner" },
-      { value: "Kanui", text: "Kanui" }
+      { value: "Kanui", text: "Kanui" },
     ];
-    
+
     localStorage.setItem("opcoesOrigem", JSON.stringify(opcoesOrigem));
   }
-  
 }
 
 function restoreFactoryData() {
