@@ -34,6 +34,8 @@ function verificarNotificacoes() {
     return dataFormatadaA - hoje - (dataFormatadaB - hoje);
   });
 
+  let noticationsCount = 0;
+
   produtos.forEach((produto) => {
     if (!produto.adquirido) {
       const partesData = produto.fimQuarentena.split("/");
@@ -58,6 +60,8 @@ function verificarNotificacoes() {
         const categoria = produto.categoria;
         const iconeCategoria = categoriasIcones[categoria] || "fas fa-question";
 
+        noticationsCount++;
+
         const mensagemAlerta = `Restam <b>${diferencaDias} ${
           diferencaDias === 1 ? "dia</b>" : "dias</b>"
         } para finalizar o período de quarentena de compra para <b>${
@@ -77,6 +81,8 @@ function verificarNotificacoes() {
       }
     }
   });
+
+  $("#notifications-badge").html(noticationsCount);
 }
 
 $(document).ready(function () {

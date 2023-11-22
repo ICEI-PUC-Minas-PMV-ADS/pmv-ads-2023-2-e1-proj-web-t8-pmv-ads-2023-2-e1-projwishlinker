@@ -184,17 +184,18 @@ function preencherTabela(produtos) {
 }
 
 function calcularEstadoDoProduto(produto) {
-  const hoje = new Date();
+  const ontem = new Date(new Date().setDate(new Date().getDate() - 1));
   const partesData = produto.fimQuarentena.split("/");
   const dataFormatada = new Date(
     partesData[2],
     partesData[1] - 1,
     partesData[0]
   );
+
   let elementoHTML = "";
   if (produto.adquirido) {
     elementoHTML = `<span class="bg-verde-claro-2 text-white py-1 px-2 rounded-4 fs-7">Sim</span>`;
-  } else if (hoje < dataFormatada) {
+  } else if (ontem < dataFormatada) {
     elementoHTML = `<span class="bg-amarelo-claro text-white py-1 px-2 rounded-4 fs-7 text-nowrap">Em análise</span>`;
   } else {
     elementoHTML = `<span class="bg-vermelho text-white py-1 px-2 rounded-4 fs-7">Não</span>`;
@@ -280,8 +281,6 @@ $(document).ready(function () {
     ).sort(function (a, b) {
       return b.id - a.id;
     });
-
-    console.log("produtos: ", produtos);
 
     if (localStorage.getItem("iconesCategorias")) {
       const produtosIconeCategoria = associaCategoriaProdutoIcone(produtos);
