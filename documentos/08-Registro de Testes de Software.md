@@ -7,6 +7,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
        Responsável: Gustavo.
        <p>Imagem, descrição do teste e resultados</p>
           <p>Imagens dos testes:</p>
+              ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/e55adb6b-9cbc-45be-ab08-63921e496561)
   </li>
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
