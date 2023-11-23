@@ -164,6 +164,22 @@ function preencherTabela(produtos) {
         refresh();
       });
   });
+
+  if (!$.fn.DataTable.isDataTable("table")) {
+    $("table").DataTable({
+      "language": {
+        "url": "https://cdn.datatables.net/plug-ins/1.10.25/i18n/Portuguese-Brasil.json"
+      },
+      columnDefs: [
+        { targets: [0, -1], orderable: false }
+      ],
+      lengthChange: false,
+      searching: false,
+      paging: true,
+      info: true
+    });
+  }
+
 }
 
 function exibirMensagemTabela(mensagem) {
