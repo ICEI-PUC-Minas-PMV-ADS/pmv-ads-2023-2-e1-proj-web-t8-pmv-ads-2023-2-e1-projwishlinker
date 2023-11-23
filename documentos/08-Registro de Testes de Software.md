@@ -6,6 +6,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-01: Verificar o funcionamento da página Dashboard.<br>
        Responsável: Gustavo.
        <p>Imagem, descrição do teste e resultados</p>
+          <p>Imagens dos testes:</p>
   </li>
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
