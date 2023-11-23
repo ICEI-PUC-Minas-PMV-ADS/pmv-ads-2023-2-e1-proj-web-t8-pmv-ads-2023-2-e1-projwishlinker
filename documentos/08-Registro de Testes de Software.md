@@ -12,6 +12,10 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
               https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/cc707cfd-8cfd-46dd-af86-387e0e095378 <br><br> 
               https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/ec668a7a-4676-4437-a350-f39dce5cd114 <br><br> 
               https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/41c9ce96-d7bb-4886-862b-1cc934c8b116 <br><br> 
+          <p><i>Descrição dos testes:</i></p>
+              <p>Foram realizados os testes para verificação do funcionameto da página Dashboard com o intuito de verificar a funcionalidade da página Dashboard, afim de identificar possíves falhas e observar se o                          funcionamento estava dentro do esperado e/ou correto de acordo com o Plano de Testes de Software</p>
+          <p><i>Resultados dos testes:</i></p>
+              <p></p>
   </li>
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
