@@ -6,7 +6,16 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-01: Verificar o funcionamento da página Dashboard.<br>
        Responsável: Gustavo.
        <p>Imagem, descrição do teste e resultados</p>
-  </li>
+          <p><i>Imagens dos testes:</i></p>
+              https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/e55adb6b-9cbc-45be-ab08-63921e496561 <br><br> 
+              https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/490be50e-71ea-4846-b855-c8d34ddac626 <br><br> 
+              https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/cc707cfd-8cfd-46dd-af86-387e0e095378 <br><br> 
+              https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/ec668a7a-4676-4437-a350-f39dce5cd114 <br><br> 
+              https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/119420834/41c9ce96-d7bb-4886-862b-1cc934c8b116 <br><br> 
+          <p><i>Descrição dos testes:</i></p>
+              <p>Foram realizados os testes para verificação do funcionameto da página Dashboard com o intuito de verificar a funcionalidade da mesma, afim de identificar possíveis falhas e observar se o                                    funcionamento está dentro do esperado e correto, de acordo com o Plano de Testes de Software</p>
+          <p><i>Resultados dos testes:</i></p>
+              <p>Após os testes foi possível observar que a aplicação apresenta o funcionamento correto e dentro do esperado. Na tela de exibição é apresentado os dados quantitativos dos itens cadastrados nas lista. Em                     caso de mais de 1 produto idêntico é feito a soma dos seus respectivos valores. Também é apresentado as listagens de notificações de produtos em quarentena, todas elas são de no máximo 3                                    dias ou menos para vencimento, conforme programado e esperado.</p>
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
