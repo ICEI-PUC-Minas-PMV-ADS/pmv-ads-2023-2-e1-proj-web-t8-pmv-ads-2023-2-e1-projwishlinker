@@ -15,7 +15,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
           <p><i>Descrição dos testes:</i></p>
               <p>Foram realizados os testes para verificação do funcionameto da página Dashboard com o intuito de verificar a funcionalidade da mesma, afim de identificar possíveis falhas e observar se o                                    funcionamento está dentro do esperado e correto, de acordo com o Plano de Testes de Software</p>
           <p><i>Resultados dos testes:</i></p>
-              <p>Após os testes foi possível observar que a aplicação apresenta o funcionamento correto e dentro do esperado. Na tela de exibição é apresentado os dados quantitativos dos itens cadastrados nas lista. Em                     caso de mais de 1 produto idêntico é feito a soma dos seus respectivos valores. As listagens de notificações de produtos em quarentena. Todas as notificações de quarentenas são de no máximo 3                               dias ou menos para vencimento, conforme programado e esperado.</p>
+              <p>Após os testes foi possível observar que a aplicação apresenta o funcionamento correto e dentro do esperado. Na tela de exibição é apresentado os dados quantitativos dos itens cadastrados nas lista. Em                     caso de mais de 1 produto idêntico é feito a soma dos seus respectivos valores. Também é apresentado as listagens de notificações de produtos em quarentena, todas elas são de no máximo 3                                    dias ou menos para vencimento, conforme programado e esperado.</p>
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
