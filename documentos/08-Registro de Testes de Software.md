@@ -11,6 +11,8 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
        <p>Imagem, descrição do teste e resultados</p>
+       <p>O usuário preenche o campo Adicionar Produtos, no botão <br> 
+       Adicionar Item com valores diferentes</p>
   </li>
   <hr>
   <li> CT-03: Gerenciamento de Produtos na Quarentena de compras.<br>
