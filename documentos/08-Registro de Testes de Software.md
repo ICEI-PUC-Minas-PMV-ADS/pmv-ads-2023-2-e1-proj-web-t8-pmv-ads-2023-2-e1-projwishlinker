@@ -19,17 +19,23 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
-       <p>Imagem, descrição do teste e resultados</p>
-        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/af84a881-0f48-438f-a47a-ec303166d0cb <br><br>
-        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/80b637de-e0cf-4fc3-ba2c-d97dd9c3bcbe <br><br>
-        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/21fe4eb7-3f57-4ff9-9d8b-6081e9cfa725 <br><br>
-        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/1756d385-aead-4efe-bad2-6f5d26ea9db7 <br><br>
-       <p><i>O usuário preenche o campo Adicionar Produtos, no botão <br> 
-       Adicionar Item com valores diferentes.</i></p>
-       <p><i>O usuário tem sua confirmação do produto cadastrado.</i></p>
+       <p>Imagens do teste de cadastro de novos produtos</p>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/7abd5e79-7d7f-4794-ac28-8efea8019d70 <br><br>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/3e550bf8-84d9-4b7d-8b53-a9f1f0201444  <br><br>
+        <p>Descrição do teste de cadastro:</p>
+          <p>Foram realizados os testes inserindo novos novos produtos na tabela, para identificar possíveis falhas e observar se o funcionamento está correto. </p>
+       <p><i>Resultado do teste:</i></p> 
+       <p>Após os testes foi observado que os dados estão sendo carregados corretamente conforme é preenchido na janela "Adicionar produto". Uma observação é que enquanto todos os campos não são preenchidos o usuário não consegue salvar o produto.  </p>   
+         https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/2e552b96-46cf-44c6-ab02-f0245b32f953 <br><br>
+         https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/829a342b-6695-4693-9e4b-3750dc717ee2 <br><br>
+       <p><i>Descrição do teste:</i></p> 
        <p><i>Se a opção desejada é remove-lo, aparecerá uma caixa de mensagem: <br> 
          "Tem certeza de deseja apagar este ítem."</i></p>
        <p><i>Em seguida, o ítem é apagado e não é mais possível vê-lo.</i></p>
+       <p>Verifica se ao clicar no ícone da lixeira o funcionamento está correto. </p>  
+      <p><i>Resultado do teste:</i></p>
+        <p>Após o teste é possível observar que quando o usuário clica no ícone da lixeira, a mensagem de confirmação é exibida na tela imediatamente e após a confirmação, o produto é excluído, e o produto de baixo, assume a posição do produto exluído na tabela.  </p>
+    
   </li>
   <hr>
   <li> CT-03: Gerenciamento de Produtos na Quarentena de compras.<br>
