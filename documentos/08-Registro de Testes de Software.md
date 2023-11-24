@@ -19,22 +19,30 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <hr>
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
-       <p>Imagens do teste de cadastro de novos produtos</p>
+       <p><i>Imagens do teste de cadastro de novos produtos</i></p>
         https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/7abd5e79-7d7f-4794-ac28-8efea8019d70 <br><br>
         https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/3e550bf8-84d9-4b7d-8b53-a9f1f0201444  <br><br>
-        <p>Descrição do teste de cadastro:</p>
-          <p>Foram realizados os testes inserindo novos novos produtos na tabela, para identificar possíveis falhas e observar se o funcionamento está correto. </p>
+        <p><i>Descrição do teste de cadastro:</i></p>
+          <p>Foram realizados os testes inserindo novos produtos na tabela, para identificar possíveis falhas e observar se o funcionamento está correto. </p>
        <p><i>Resultado do teste:</i></p> 
-       <p>Após os testes foi observado que os dados estão sendo carregados corretamente conforme é preenchido na janela "Adicionar produto". Uma observação é que enquanto todos os campos não são preenchidos o usuário não consegue salvar o produto.  </p>   
+       <p>Após os testes foi observado que os dados estão sendo carregados corretamente conforme é preenchido na janela "Adicionar produto". Uma observação é que enquanto todos os campos não são preenchidos o usuário não consegue salvar o produto.</p>  
+    <p><i>Imagens do teste de remoção de produtos.</i></p>
          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/2e552b96-46cf-44c6-ab02-f0245b32f953 <br><br>
          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/829a342b-6695-4693-9e4b-3750dc717ee2 <br><br>
        <p><i>Descrição do teste:</i></p> 
-       <p><i>Se a opção desejada é remove-lo, aparecerá uma caixa de mensagem: <br> 
-         "Tem certeza de deseja apagar este ítem."</i></p>
-       <p><i>Em seguida, o ítem é apagado e não é mais possível vê-lo.</i></p>
-       <p>Verifica se ao clicar no ícone da lixeira o funcionamento está correto. </p>  
+       <p>Se a opção desejada é remove-lo, aparecerá uma caixa de mensagem:<br> 
+         "Tem certeza de deseja apagar este ítem."</p>
+       <p>Em seguida, o ítem é apagado e não é mais possível vê-lo.</p>
+       <p>Verifica se ao clicar no ícone da lixeira o funcionamento está correto.</p>  
       <p><i>Resultado do teste:</i></p>
-        <p>Após o teste é possível observar que quando o usuário clica no ícone da lixeira, a mensagem de confirmação é exibida na tela imediatamente e após a confirmação, o produto é excluído, e o produto de baixo, assume a posição do produto exluído na tabela.  </p>
+        <p>Após o teste é possível observar que quando o usuário clica no ícone da lixeira, a mensagem de confirmação é exibida na tela imediatamente e após a confirmação, o produto é excluído, e o produto de baixo, assume a posição do produto exluído na tabela.</p>
+        <p><i>Imagens do teste visualização de produtos</i></p>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/95b4ca43-edf5-47dc-a6dc-f1ca86f4a3f3 <br><br>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/12f6427a-032c-440b-bad4-1bde23b98e10 <br><br>
+        <p><i>Descrição do teste:</i></p>
+        <p>Esse teste é para verificar se o usuário está sendo redirecionado para o link informado no cadastro do produto. </p>
+        <p><i>Resultado do teste:</i></p>
+        <p>Após o teste foi observado que o botão de visualização está funcionando corretamente e o usuário sempre será redirecionado para o link informado. </p>  
     
   </li>
   <hr>
@@ -61,7 +69,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
        <p><i>Descrição do teste:</i></p>
           <p>Esse teste é para verificar se o usuário está sendo redirecionado para o link informado no cadastro do produto </p>
         <p><i>Resultado do teste:</i></p>
-          <p>Após o teste foi observado que o botão de visualização está funcionando corretamente e o usuário sempre será redirecionado para o link informado.   </p>
+          <p>Após o teste foi observado que o botão de visualização está funcionando corretamente e o usuário sempre será redirecionado para o link informado. </p>
     
       
   </li>
