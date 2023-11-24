@@ -20,16 +20,16 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
        <p>Imagem, descrição do teste e resultados</p>
-       <p><i></i>O usuário preenche o campo Adicionar Produtos, no botão <br> 
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/af84a881-0f48-438f-a47a-ec303166d0cb <br><br>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/80b637de-e0cf-4fc3-ba2c-d97dd9c3bcbe <br><br>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/21fe4eb7-3f57-4ff9-9d8b-6081e9cfa725 <br><br>
+        https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/1756d385-aead-4efe-bad2-6f5d26ea9db7 <br><br>
+       <p><i>O usuário preenche o campo Adicionar Produtos, no botão <br> 
        Adicionar Item com valores diferentes.</i></p>
-       https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/af84a881-0f48-438f-a47a-ec303166d0cb <br><br>
        <p><i>O usuário tem sua confirmação do produto cadastrado.</i></p>
-       https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/80b637de-e0cf-4fc3-ba2c-d97dd9c3bcbe <br><br>
-       <p><i>Se a opção desejada é remove-lo, aparecerá uma caixa de mensagem se <br> 
-         tem certeza de apagar este ítem.</i></p>
-         https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/21fe4eb7-3f57-4ff9-9d8b-6081e9cfa725 <br><br>
-         <p><i>Em seguida, o ítem é apagado e não é mais possível vê-lo.</i></p>
-         https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/1756d385-aead-4efe-bad2-6f5d26ea9db7 <br><br>
+       <p><i>Se a opção desejada é remove-lo, aparecerá uma caixa de mensagem: <br> 
+         "Tem certeza de deseja apagar este ítem."</i></p>
+       <p><i>Em seguida, o ítem é apagado e não é mais possível vê-lo.</i></p>
   </li>
   <hr>
   <li> CT-03: Gerenciamento de Produtos na Quarentena de compras.<br>
