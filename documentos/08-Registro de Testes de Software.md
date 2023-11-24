@@ -59,7 +59,19 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <hr>
   <li> CT-05: Ordenação de Produtos.<br>
        Responsável: Leônidas.
-       <p>Imagem, descrição do teste e resultados</p>
+       <p><i>Imagens dos testes</i></p>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/05050bc3-51fb-4c65-a653-11d5ba8b3054 <br><br> 
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/882a611e-b8af-445e-b555-85b496f44a69 <br><br> 
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/523647d3-3752-447a-ac8d-5ba4633e6e5e <br><br> 
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/8eedb3a9-ece8-4b5b-95d3-02922dd3c85a <br><br>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/35f431de-2292-43d4-9d6e-7202e5691b74 <br><br>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/9482c4ad-9d3a-4c7d-83a0-5dce98ecc4be <br><br>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/a09f01f9-7fb5-4558-a2a3-13a8af599d83 <br><br>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/38402132/823ca838-90c0-4e5a-9b43-5c179eca2c57 <br><br>
+       <p><i>Descrição dos testes:</i></p>
+          <p>Foram realizados os testes para verificar o funcionamento da ferramenta de ordenação dos produtos para as páginas quarentena de compras e lista de desejos, para as colunas das tabelas (Categoria, Item, Valor, Origem e a Data). Para que o funcionamento esteja correto ao clicar no título da coluna, a tabela irá ordernar de forma crescente (seta pra cima) ou de forma decrescente (seta para baixo). </p>
+        <p><i>Resultado dos testes:</i></p>
+          <p>Após os testes foi observado que os dados estão sendo carregados corretamente, conforme o usuário clica na coluna em que deseja ordenar, os dados são carregados de forma decrescente quando a seta está para baixo e de forma cresecente quando a seta está para cima. Ao clicar em outra coluna, os dados passam a ser reordenados conforme a coluna selecionada.  </p>
   </li>
 </ol>
 
