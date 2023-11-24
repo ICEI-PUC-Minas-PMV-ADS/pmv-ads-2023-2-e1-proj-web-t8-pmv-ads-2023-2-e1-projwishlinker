@@ -20,8 +20,10 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <li> CT-02: Gerenciamento de Produtos na Lista de desejos.<br>
        Responsável: Jozimar.
        <p>Imagem, descrição do teste e resultados</p>
-       <p>O usuário preenche o campo Adicionar Produtos, no botão <br> 
-       Adicionar Item com valores diferentes</p>
+       <p><i></i>O usuário preenche o campo Adicionar Produtos, no botão <br> 
+       Adicionar Item com valores diferentes.</i></p>
+       https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/144956029/af84a881-0f48-438f-a47a-ec303166d0cb
+
   </li>
   <hr>
   <li> CT-03: Gerenciamento de Produtos na Quarentena de compras.<br>
