@@ -166,21 +166,41 @@ function preencherTabela(produtos) {
   });
 
   if (!$.fn.DataTable.isDataTable("table")) {
+    $.extend($.fn.dataTable.ext.oSort, {
+      "string-pre": function (a) {
+        return removeAcentuacao(a.toLowerCase());
+      },
+      "string-asc": function (x, y) {
+        return x.localeCompare(y);
+      },
+      "string-desc": function (x, y) {
+        return y.localeCompare(x);
+      }
+    });
+  
     $("table").DataTable({
       "language": {
         "url": "https://cdn.datatables.net/plug-ins/1.10.25/i18n/Portuguese-Brasil.json"
       },
-      columnDefs: [
-        { targets: [0, -1], orderable: false }
+      "columnDefs": [
+        { "targets": [0, -1], "orderable": false },
+        { "type": "string", "targets": "_all" } 
       ],
-      lengthChange: false,
-      searching: false,
-      paging: true,
-      info: true
+      "lengthChange": false,
+      "searching": false,
+      "paging": true,
+      "info": true,
+      "order": [[1, "asc"]] 
     });
   }
+  
 
 }
+
+function removeAcentuacao(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
 
 function exibirMensagemTabela(mensagem) {
   const tabela = $("table tbody");
