@@ -76,7 +76,15 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   <hr>
   <li> CT-04: Funcionalidade de Filtro/Pesquisa.<br>
        Responsável: Rodolfo.
-       <p>Imagem, descrição do teste e resultados</p>
+        <p><i>Imagen do teste de filtros de pesquisa dos produto</i></p>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/5b748f71-d463-4bea-a641-2d67f8600f17
+        <p><i>Descrição do teste:</i></p>
+          <p>Teste para validar o funcionamento dos filtros de pesquisa implementados</p>
+        <p><i>Resultado do teste:</i></p>
+          <p>Após informar o filtro 'Categoria' e executar o comando do botão [Pesquisar], os resultados são filtrados corretamente de acordo com a imagem abaixo:</p>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/080b39e1-c0b7-4183-9521-d6d3b22e88a6
+          <p>Ao informar um valor adicional no filtro 'Item' e acionar novamente o botão [Pesquisar], os resultados são filtrados novamente de acordo com os filtros informados:</p>
+          https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/assets/56805870/0b832a8b-d016-4481-9705-248a21754f56
   </li>
   <hr>
   <li> CT-05: Ordenação de Produtos.<br>
