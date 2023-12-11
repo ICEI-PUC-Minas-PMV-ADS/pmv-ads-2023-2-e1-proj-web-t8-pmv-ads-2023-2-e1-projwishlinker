@@ -3,7 +3,7 @@
 
 1. Apresentação de slides
 
-[Apresentação - Wishlinker.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/files/13629647/Apresentacao.-.Wishlinker.pdf)
+[Apresentação - Wishlinker.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/files/13629697/Apresentacao.-.Wishlinker.pdf)
 
 2. Vídeo de apresentação das funcionalidades
 
@@ -13,5 +13,5 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-
 
 ## Hospedagem
 
-Foi utilizada a plataforma GitHub Pages como ambiente de hospedagem do site do projeto, que será mantido na URL: 
+Foi utilizada a plataforma GitHub Pages como ambiente de hospedagem do site do projeto, que será mantido na URL: <br>
 https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/codigo-fonte
