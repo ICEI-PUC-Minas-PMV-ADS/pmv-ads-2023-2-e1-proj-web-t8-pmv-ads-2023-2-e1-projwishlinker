@@ -1,0 +1,28 @@
+message: Please cite this software using these metadata.
+title: WhishLinker
+authors:
+  - family-names: Pires Alves de Castro
+    given-names: Thiago
+  - family-names: Iannazzo Querino da Silva
+    given-names: Rodolfo
+  - family-names: Aparecido de Jesus Santos
+    given-names: Jozimar
+  - family-names: Soares Oliveira
+    given-names: Leonidas Felipe
+    - family-names: Almeida dos Reis
+    given-names: Gabriela
+    - family-names: Maciel
+    given-names: Gustavo Vinicius
+keywords:
+  - Lista
+  - Favoritos
+  - Compras
+  - Wishlist
+  - Lista-de-desejos
+  - E-commerce
+  - Comércio
+  - Shopping
+  - Marketplace
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker
+version: 1.0.0
+date-released: 2023-12-10
