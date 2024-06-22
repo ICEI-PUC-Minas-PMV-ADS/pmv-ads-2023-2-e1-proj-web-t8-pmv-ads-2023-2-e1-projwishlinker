@@ -38,7 +38,7 @@ O objetivo geral deste projeto é oferecer aos consumidores uma plataforma de ce
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2023-2-e1-proj-web-t8-pmv-ads-2023-2-e1-projwishlinker/codigo-fonte/login.html
 
 # Código-Fonte
 

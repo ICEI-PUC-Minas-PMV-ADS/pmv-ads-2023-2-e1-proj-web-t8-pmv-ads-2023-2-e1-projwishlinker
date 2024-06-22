@@ -347,7 +347,6 @@ function refresh() {
 
 function pesquisaItens() {
   $("#pesquisarItemButton").click(function () {
-    //recupera os valores dos campos
     let categoria = $("#pesquisaCategoria").val()
       ? $("#pesquisaCategoria").val().trim().toLowerCase()
       : "";
@@ -358,11 +357,9 @@ function pesquisaItens() {
       ? $("#pesquisaNome").val().trim().toLowerCase()
       : "";
 
-    //recupera a quarentena de compras do localStorage
     let listaQuarentenaCompras =
       JSON.parse(localStorage.getItem("quarentenaDeCompras")) || [];
 
-    //filtra a lista de quarentena de compras de acordo com os filtros informados (caso o filtro nao seja informado, nao sera aplicado)
     let resultadosFiltrados = listaQuarentenaCompras.filter(function (item) {
       let filtroCategoria =
         categoria === "" || item.categoria.toLowerCase() === categoria;
@@ -373,14 +370,12 @@ function pesquisaItens() {
       return filtroCategoria && filtroOrigem && filtroNome;
     });
 
-    //caso nenhum registro seja encontrado exibe uma mensagem na tabela
     if (resultadosFiltrados.length === 0) {
       exibirMensagemTabela(
         "Nenhum produto foi localizado para os filtros informados."
       );
       return;
     } else {
-      //associa a categoria do produto com o icone correspondente e faz a chamada de preencherTabela para exibir os resultados
       resultadosFiltrados = associaCategoriaProdutoIcone(resultadosFiltrados);
       preencherTabela(resultadosFiltrados);
     }
@@ -403,35 +398,28 @@ function limparFiltros() {
 }
 
 function preencheSelects() {
-  //le as categorias cadastradas no localstorage
   let opcoesCategoria = JSON.parse(localStorage.getItem("opcoesCategoria"));
 
-  //recupera os elementos selects que precisam ser preenchidos
-  var selectCategoria = document.getElementById("pesquisaCategoria");
-  var editCategoria = document.getElementById("editCategoria");
+  let selectCategoria = document.getElementById("pesquisaCategoria");
+  let editCategoria = document.getElementById("editCategoria");
 
-  //preenche ambos os selects com as opcoes de categoria
   opcoesCategoria.forEach(function (opcao) {
-    var optionSelect = new Option(opcao.text, opcao.value);
+    let optionSelect = new Option(opcao.text, opcao.value);
     selectCategoria.add(optionSelect);
 
-    var optionEdit = new Option(opcao.text, opcao.value);
+    let optionEdit = new Option(opcao.text, opcao.value);
     editCategoria.add(optionEdit);
   });
 
-  //le as origens cadastradas no localstorage
   let opcoesOrigem = JSON.parse(localStorage.getItem("opcoesOrigem"));
+  let selectOrigem = document.getElementById("pesquisaOrigem");
+  let editOrigem = document.getElementById("editOrigem");
 
-  //recupera os elementos selects que precisam ser preenchidos
-  var selectOrigem = document.getElementById("pesquisaOrigem");
-  var editOrigem = document.getElementById("editOrigem");
-
-  //preenche ambos os selects com as opcoes de origem
   opcoesOrigem.forEach(function (opcao) {
-    var optionSelect = new Option(opcao.text, opcao.value);
+    let optionSelect = new Option(opcao.text, opcao.value);
     selectOrigem.add(optionSelect);
 
-    var optionEdit = new Option(opcao.text, opcao.value);
+    let optionEdit = new Option(opcao.text, opcao.value);
     editOrigem.add(optionEdit);
   });
 }
